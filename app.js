@@ -109,7 +109,7 @@ const preguntes = {
           },
           {
             "pregunta": "Quina afirmació és falsa?",
-            "opcions": ["Una tupla que avalua el predicat d'un CHECK a 'desconegut' no viola la restricció d'integritat", "Una tupla que avalua el predicat del WHERE a 'desconegut' no surt al resultat de la consulta", "Una tupla que té un valor nul a la clau forana no viola la restricció d'integritat", "Cap de les anteriors afirmacions és falsa"],
+            "opcions": ["Una tupla que avalua el predicat d'un CHECK a 'desconegut' no viola la restricció d'integritat", "Una tupla que avalua el predicat del WHERE a 'desconegut' no surt al resultat de la consulta", "Una tupla que té un valor nul a la clau forana no viola la restricció d'integritat", "Alguna de les anteriors afirmacions és falsa"],
             "correcta": 3
           },
           {
@@ -426,7 +426,7 @@ const preguntes = {
           {
             "pregunta": "Quin tipus de sistema utilitza transaccions?",
             "opcions": ["Operacional", "Decisional", "Els dos", "Cap dels dos"],
-            "correcta": 1
+            "correcta": 0
           },
           {
             "pregunta": "Quin tipus de sistema té consultes més complexes?",
@@ -491,7 +491,7 @@ const preguntes = {
           {
             "pregunta": "Quina multiplicitat permet un esquema en estrella entre el fet i les dimensions?",
             "opcions": ["1-1", "1-*", "*-*", "Totes les anteriors"],
-            "correcta": 3
+            "correcta": 1
           },
           {
             "pregunta": "Un esquema en estrella té un únic fet.",
@@ -638,19 +638,19 @@ const preguntes = {
       "correcta": 1
     },
     {
-      "pregunta": "No podem modificar una taula a través d’una vista que tingui un agregat.",
+      "pregunta": "Els SGBDs no permeten modificar una taula a través d’una vista que tingui un agregat.",
       "opcions": ["Cert", "Fals"],
       "correcta": 0
     },
     {
-      "pregunta": "No podem modificar una taula a través d’una vista que faci una join.",
+      "pregunta": "Els SGBDs no permeten modificar una taula a través d’una vista que faci una join.",
       "opcions": ["Cert", "Fals"],
       "correcta": 0
     },
     {
       "pregunta": "Quan NO podem propagar els canvis d’una taula a les seves vistes materialitzades?",
       "opcions": ["On commit", "On statement", "On demand", "Podem propagar-los de les tres maneres"],
-      "correcta": 1
+      "correcta": 3
     },
     {
       "pregunta": "Només cal crear un log per fer manteniment de vistes incremental.",

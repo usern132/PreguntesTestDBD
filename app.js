@@ -707,7 +707,584 @@ const preguntes = {
       "opcions": ["Cert", "Fals"],
       "correcta": 1
     }
-  ]
+  ],
+  tema7:[
+    {
+        "pregunta": "Quina NO és una de les tasques bàsiques del disseny físic?",
+        "opcions": ["Escollir les estructures de dades", "Reconsiderar l'esquema relacional", "Testejar el rendiment", "Adaptar l'esquema lògic al SGBD", "Reconsiderar els requisits"],
+        "correcta": 4
+    },
+    {
+        "pregunta": "Quin NO és un criteri per prendre decisions sobre el disseny físic?",
+        "opcions": ["Escalabilitat", "Millora de rendiment", "Disponibilitat", "Integritat", "Benefici econòmic", "Simplicitat de l'administració"],
+        "correcta": 4
+    },
+    {
+        "pregunta": "Quina NO és una dificultat en el disseny físic?",
+        "opcions": ["Tenir recursos limitats", "Les imperfeccions del SGBD", "Els usuaris", "La xarxa", "La normalització", "L'existència de criteris contraposats"],
+        "correcta": 4
+    },
+    {
+        "pregunta": "Les estructures d'accés (és a dir, els índexs) són ... respecte a les taules.",
+        "opcions": ["Complementàries", "Redundants"],
+        "correcta": 0
+    },
+    {
+        "pregunta": "Què NO podem trobar en una entrada d'un índex?",
+        "opcions": ["El registre sencer", "Una llista d'adreces físiques de registres", "Una funció de hash", "Un mapa de bits", "Una adreça física del registre"],
+        "correcta": 2
+    },
+    {
+        "pregunta": "Els blocs de la taula contenen apuntadors als registres.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 0
+    },
+    {
+        "pregunta": "Els nodes d'un índex tipus arbre estan normalment plens al 100%.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "Els buckets d'un índex tipus hash estan normalment plens al 100%.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "Els buckets d'un índex tipus hash estan normalment més plens que els nodes d'un arbre.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 0
+    },
+    {
+        "pregunta": "Un índex cluster manté ordenades les dades de la taula segons l'atribut d'indexació.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 0
+    },
+    {
+        "pregunta": "Quin és típicament l'ordre (normalment representat per la lletra “d”) d'un índex tipus arbre?",
+        "opcions": ["Menor que 10", "Entre 10 i 50", "Entre 50 i 100", "Major que 100"],
+        "correcta": 3
+    },
+    {
+        "pregunta": "Els índexs tipus arbre i hash són molt útils en consultes poc selectives.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "Els índexs ocupen sempre menys espai que la taula i conseqüentment mai generaran problemes d'espai.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "Els índexs tipus hash només són útils si tinc una condició de selecció per igualtat.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 0
+    },
+    {
+        "pregunta": "Els índexs són útils a qualsevol taula.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "NO haig de definir un índex tipus arbre o hash si l'atribut té pocs valors.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 0
+    },
+    {
+        "pregunta": "Index-only query answering vol dir que el SGBD no accedirà a la taula per a resoldre la consulta.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 0
+    }
+],
+tema8:[
+  {
+      "pregunta": "¿Quina NO és una de les tres fases de la optimització de consultes?",
+      "opcions": ["Lògica", "Sintàctica", "Semàntica", "Física"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "En quina posició se situa l'optimització dins del procés de processament de consultes?",
+      "opcions": ["Primera", "Segona", "Tercera", "Última"],
+      "correcta": 3
+  },
+  {
+      "pregunta": "L'optimització de consultes tradueix d'un llenguatge declaratiu a un de procedural.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "L'optimitzador de consultes sempre troba el millor pla d'accés.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L'optimització semàntica canvia el llenguatge de representació de la consulta.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L'optimització sintàctica canvia el llenguatge de representació de la consulta.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "L'optimització sintàctica resol totes les vistes no-materialitzades que hi hagi a la consulta.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "L'optimització sintàctica canvia el cost de la consulta.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+    {
+        "pregunta": "Les dues regles heurístiques utilitzades a l'optimització sintàctica sempre milloren el cost de la consulta.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "L'optimització sintàctica sempre redueix el nombre d'operacions a l'arbre sintàctic.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "Després de l'optimització sintàctica poden quedar dos subgrafs iguals a l'arbre sintàctic.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "L'optimització sintàctica mai elimina operacions de l'arbre sintàctic.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "La selecció commuta sempre amb qualsevol operació de conjunts (és a dir, unió, intersecció i diferència).",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 0
+    },
+    {
+        "pregunta": "La projecció commuta sempre amb qualsevol operació de conjunts (és a dir, unió, intersecció i diferència).",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "Quines propietats compleix la join?",
+        "opcions": ["Commutativa", "Associativa", "Cap de les dues", "Totes dues"],
+        "correcta": 3
+    },
+    {
+        "pregunta": "Quina operació deixa de ser explícita en l'arbre de procés?",
+        "opcions": ["Projecció", "Selecció", "Join", "Cap de les anteriors"],
+        "correcta": 0
+    },
+    {
+        "pregunta": "Què NO genera alternatives en l'espai de cerca de l'optimització basada en costos?",
+        "opcions": ["Algorismes existents per cada operació", "Utilització de la cache", "Estructures d'accés disponibles", "L'ordre de les joins"],
+        "correcta": 1
+    },
+    {
+        "pregunta": "El cost d'una consulta és la suma dels costos de totes les operacions del seu arbre de procés.",
+        "opcions": ["Cert", "Fals"],
+        "correcta": 0
+    }
+],
+tema9: [
+  {
+      "pregunta": "Les cardinalitats dels resultats intermitjos es calculen top-down a l'arbre de procés.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El SGBD manté sempre actualitzades les estadístiques de les taules.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El SGBD típicament assumeix una distribució normal dels valors de cada atribut.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El SGBD típicament assumeix la independència estadística de tots els atributs de les taules.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "La longitud d’un registre és la suma de les longituds dels seus atributs.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El primer pas per a processar una selecció d’un predicat complex és posar-ho en forma normal disjuntiva.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Si després de posar el predicat lògic d’una selecció en forma normal conjuntiva una de les condicions dins d’un parèntesi no permet utilitzar cap índex, llavors no podem utilitzar-ne cap tampoc a les altres condicions dins del parèntesi.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Les operacions amb bitmaps són equivalents a les operacions de llistes de RIDs.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Un índex tipus arbre multi-atribut no necessàriament utilitza més espai que si indexem només el primer dels seus atributs.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Un índex tipus arbre multi-atribut permet resoldre qualsevol selecció amb un predicat lògic que involucri tots els atributs indexats.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’ordre dels atributs en un índex tipus arbre multi-atribut és irrellevant per a les consultes que es puguin fer amb ell.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’operació d’ordenació pot aparèixer en l’arbre de procés de consultes que NO tinguin ORDER BY.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Un índex tipus arbre es pot utilitzar per ordenar les dades.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Un índex tipus hash es pot utilitzar per ordenar les dades.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’operació de projecció sense eliminació de repetits no té cap cost associat quan la consulta té alguna altra operació.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "L’eliminació de repetits considera les mateixes alternatives d’algorismes que l’ordenació.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  }
+],
+tema10:[
+  {
+      "pregunta": "L’opció que dona el cost més baix per a fer una join és sempre tenir les dues taules en una estructura cluster.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Row Nested Loops requereix l’existència d’un índex a priori.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "L’algorisme de Row Nested Loops només es pot utilitzar si, en l’arbre de procés, l’operació de join està situada directament sobre la taula de l’índex utilitzat.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "L’algorisme de Row Nested Loops només es pot utilitzar si la comparació de la join és la igualtat.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Block Nested Loops sempre es pot utilitzar.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "L’algorisme de Block Nested Loops és simètric.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Block Nested Loops requereix que una de les taules càpiga a memòria.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Hash-join requereix l’existència d’un índex hash a priori.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Hash-join només es pot utilitzar si la comparació de la join és la igualtat.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "L’algorisme de Hash-join és simètric.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Hash-join requereix que una de les taules càpiga a memòria.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Sort-Match només es pot utilitzar si la comparació de la join és la igualtat.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Sort-Match requereix que alguna de les taules estigui ordenada a priori.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Sort-Match requereix l’existència d’un índex cluster a priori.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "L’algorisme de Sort-Match deixa el resultat ordenat.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  }
+],
+tema11:[
+  {
+      "pregunta": "¿Quin NO és un dels tres espais d'un SGBD?",
+      "opcions": ["Físic", "Lògic", "Virtual", "Conceptual"],
+      "correcta": 3
+  },
+  {
+      "pregunta": "Què NO hi ha a l’espai lògic d’un SGBD?",
+      "opcions": ["Vistes", "Files", "Taules", "Columnes"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Què NO hi ha a l’espai virtual d’un SGBD?",
+      "opcions": ["Taules", "Clusters", "Índexs", "Pàgines", "Particions", "Tablespaces", "Vistes"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Què NO hi ha a l’espai físic d’un SGBD?",
+      "opcions": ["Extensions", "Índexs", "Blocks", "Fitxers"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Les extensions serveixen per a garantir que el sistema operatiu assigni espai físicament consecutiu al disc.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Un Tablespace pot tenir associats més d’un fitxer.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Els Tablespaces faciliten disposar d’espai il·limitat a la base de dades.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Cal definir un Tablespace per a cada usuari del sistema.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El fillfactor és el percentatge màxim que pot tenir mai ple un bloc de la taula.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El nombre de repeticions de cada valor és irrellevant per a la utilitat d’un índex tipus arbre.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Un cop s’ha creat un índex tipus bitmap, es poden continuar fent insercions a la taula, però no de valors nous de l’atribut indexat.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Quin tipus d’índex és millor en cas de consultes que involucrin múltiples valors d’un atribut?",
+      "opcions": ["Cluster", "Hash", "Arbre", "Bitmap"],
+      "correcta": 3
+  },
+  {
+      "pregunta": "Quin tipus d’índex és millor en cas que l’atribut indexat tingui moltes repeticions?",
+      "opcions": ["Hash", "Cluster", "Arbre", "Bitmap"],
+      "correcta": 3
+  },
+  {
+      "pregunta": "Quin tipus d’usuari s’encarrega del tuning de la base de dades?",
+      "opcions": ["Administrador", "Programador d’aplicacions", "Dissenyador", "Tots els anteriors"],
+      "correcta": 3
+  },
+  {
+      "pregunta": "Quina dada de les que no trobem al pla d’accés NO és rellevant per a fer tuning de l’execució de les consultes?",
+      "opcions": ["Nombre de deadlocks", "Grandària del dietari", "Temps en les cues de bloquejos", "Hits a la cache", "Nombre de bloquejos"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El nombre d’índexos que podem crear a una base de dades és lineal respecte al nombre de taules i atributs existents.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Un índex que no sigui de tipus cluster mai empitjorarà l’execució d’una consulta.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "És millor no posar índexs a les taules petites.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Pot ser que un índex no millori el rendiment de cap operació DML concreta, però tot i així sigui bo crear-ho des del punt de vista del rendiment del sistema.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El predicat de les consultes és irrellevant per a triar el tipus d’índex d’una taula.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Una taula pot tenir com a màxim un índex tipus cluster.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Com més repeticions tingui un atribut, millor serà posar un índex tipus hash en comptes d’un arbre.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Com més repeticions tingui un atribut, millor serà posar un índex tipus bitmap en comptes d’un arbre.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  }
+],
+tema12:
+[
+  {
+      "pregunta": "Pel que fa a l’aïllament, volem tenir només històries serials.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "El nivell d’aïllament serializable sempre bloqueja tota la taula fins al final de la transacció.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Quin dels següents conceptes NO afecta al temps d’execució de la transacció?",
+      "opcions": ["Nombre de bloquejos", "Moment d’alliberament dels bloquejos", "Moment d’assignació del timestamp", "Tipus de bloquejos"],
+      "correcta": 2
+  },
+  {
+      "pregunta": "Quina de les següents accions NO serveix per millorar el rendiment de les transaccions?",
+      "opcions": ["Trossejar les transaccions", "Eliminar bloquejos innecessaris", "Evitar (o endarrerir) l’accés a granuls molt demandats", "Configurar l’interval de detecció de deadlock adequat", "Relaxar el nivell d’aïllament", "Utilitzar les sentencies de DDL quan hi hagi pocs usuaris", "Assignar el timestamp el més tard possible"],
+      "correcta": 6
+  },
+  {
+      "pregunta": "El control de concurrència multi-versió fa que dues transaccions que s’executin concurrentment puguin llegir dades diferents.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Amb control de concurrència multi-versió les operacions de lectura no bloquegen mai res.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Amb control de concurrència multi-versió només hi ha bloquejos entre escriptures.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Fent vacuum, eliminem les versions obsoletes de les dades en el control de concurrència multi-versió.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Amb un control de concurrència multi-versió basat en bloquejos, s’aplica un control de concurrència diferent depenent de si la transacció és read-only o read-write.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Quina NO és una raó per a necessitar una reconstrucció?",
+      "opcions": ["Fallada elèctrica", "Incendi", "Fallada del disc", "Cap de les anteriors"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Quina de les quatre propietats ACID està relacionada principalment amb la restauració?",
+      "opcions": ["Atomicitat", "Consistència", "Aïllament", "Durabilitat"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Quina de les quatre propietats ACID està relacionada principalment amb la reconstrucció?",
+      "opcions": ["Atomicitat", "Consistència", "Aïllament", "Durabilitat"],
+      "correcta": 3
+  },
+  {
+      "pregunta": "Què NO es guarda al dietari?",
+      "opcions": ["Valor vell del granull modificat", "Pla d’accés de la consulta", "Valor nou del granull modificat", "Tipus d’operació", "Punter a l’operació següent de la transacció", "Identificador de l’objecte", "Punter a l’operació anterior de la transacció"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "¿Quan NO es fa un flush dels buffers del SGBD?",
+      "opcions": ["Quan el nombre de pàgines de memòria modificades supera un cert llindar", "A intervals regulars", "Quan el dietari s’omple", "Durant un backup", "Durant una operació de DDL"],
+      "correcta": 4
+  },
+  {
+      "pregunta": "El Write Ahead Log Protocol estableix que abans de confirmar qualsevol operació de DML, aquesta s’ha d’escriure al dietari.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Si fem backups de forma regular, no ens cal el dietari per a reconstruir la base de dades.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Si configurem de forma adequada el dietari, no ens cal fer backups.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Endarrerir els flush tan com sigui possible millora el rendiment del sistema.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Trossejar les transaccions read-write millora el rendiment del sistema.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "El fet que trossejar una transacció afecti o no al seu aïllament depèn només d’ella mateixa i no de cap altra transacció que es pugui executar de forma concurrent.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 1
+  },
+  {
+      "pregunta": "Les transaccions llargues són un problema tant pel control de concurrència, com per a la recuperació.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Si totes les transaccions són prou curtes, podem substituir el control de concurrència per un sistema de cues.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  },
+  {
+      "pregunta": "Si tenim un sistema que només fa lectures, podem prescindir tant dels mecanismes de control de concurrència com dels de recuperació.",
+      "opcions": ["Cert", "Fals"],
+      "correcta": 0
+  }
+]
+
+
+
+
 };
 
 let preguntesSeleccionades = [];
@@ -783,6 +1360,23 @@ document.getElementById('iniciar-test').addEventListener('click', function() {
     if (document.getElementById('tema6').checked) {
       preguntesSeleccionades = preguntesSeleccionades.concat(preguntes.tema6);
   }
+  if (document.getElementById('tema7').checked) {
+    preguntesSeleccionades = preguntesSeleccionades.concat(preguntes.tema7);
+}
+if (document.getElementById('tema8').checked) {
+  preguntesSeleccionades = preguntesSeleccionades.concat(preguntes.tema8);
+}
+if (document.getElementById('tema9').checked) {
+  preguntesSeleccionades = preguntesSeleccionades.concat(preguntes.tema9);
+}
+if (document.getElementById('tema10').checked) {
+  preguntesSeleccionades = preguntesSeleccionades.concat(preguntes.tema10);
+}
+if (document.getElementById('tema11').checked) {
+  preguntesSeleccionades = preguntesSeleccionades.concat(preguntes.tema11);
+}if (document.getElementById('tema12').checked) {
+  preguntesSeleccionades = preguntesSeleccionades.concat(preguntes.tema12);
+}
     }
     
 

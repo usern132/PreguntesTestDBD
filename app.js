@@ -661,7 +661,97 @@ const preguntes = {
             "pregunta": "La 4NF no permet tenir depend`encies multivaluades.",
             "opcions": ["Cert", "Fals"],
             "correcta": 1
-          }
+          },
+{
+"pregunta": "Les anomalies a les que fa referència la normalització no afecten a les consultes.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La normalització formalitza les propietats que ha de complir un disseny de bases de dades relacionals per a ser considerat de qualitat.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "El producte cartesià de dos conjunts és també un tipus de relació, però no funcional.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "El principal propòsit de les formes normals del model relacional és millorar el rendiment (és a dir, temps de resposta) del sistema.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Quin dels següents tipus de dades és atòmic?",
+"opcions": ["JSON", "Matriu", "Tots dos ho són", "Cap dels dos ho és"],
+"correcta": 3
+},
+{
+"pregunta": "Si una relació que no està en 2FN i volem que ho estigui, el que hem de fer és dividir els seus atributs en subconjunts disjunts tant com calgui fins que ho estigui.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Si una relació que no està en 3FN i volem que ho estigui, el que hem de fer és dividir els seus atributs en subconjunts disjunts tant com calgui fins que ho estigui, però deixant en cada divisió com clau forana entre les parts el determinant que provoca la violacio de la forma normal.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La normalització fins a BCNF és única.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "La clausura de dependències funcionals conté totes les dependències implícites al disseny.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Si executem l'algorisme de normalització d'anàlisi diverses vegades, podem obtenir resultats diferents.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "L'algorisme de normalització d'anàlisi NO garanteix que al final complim BCNF.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "L'algorisme de normalització d'anàlisi tracta de trobar la 'relació universal'.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Un esquema normalitzat és millor que un que no ho està, perquè el primer conté redundàncies que el segon no té.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Donada la seqüència de conjunts d'esquemes tals que compleixen una certa dependència funcional: E1NF, E2NF, E3NF, EBCNF i E4NF (per exemple, E3NF representa tots el esquemes que compleixen 3NF). Si considerem qualsevol parella EX-EY tal que EX apareix abans que EY en aquesta seqüència, podem afirmar que:",
+"opcions": ["EX ∩ EY = ∅ (no hi ha cap esquema que compleixi X i Y alhora)", "EX ⊇ EY (tots els que compleixen Y, també compleixen X)", "EX ⊆ EY (tots els que compleixen X, també compleixen Y)", "Cap de les anteriors"],
+"correcta": 1
+},
+{
+"pregunta": "Qualsevol relació està en NF2.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Una dependència multivaluada és un tipus de dependència funcional.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Si una relació està en 4NF ho està també en BCNF.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Per normalitzar una relació que no estigui en 4FN, hem de fer el producte cartesià del atributs que l'estiguin violant.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+}   
     ],
     tema4: [
         {

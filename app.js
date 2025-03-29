@@ -169,8 +169,8 @@ const preguntes = {
             "correcta": 3
           },
           {
-            "pregunta": "Quina afirmació és falsa?",
-            "opcions": ["Una tupla que avalua el predicat d'un CHECK a 'desconegut' no viola la restricció d'integritat", "Una tupla que avalua el predicat del WHERE a 'desconegut' no surt al resultat de la consulta", "Una tupla que té un valor nul a la clau forana no viola la restricció d'integritat", "Alguna de les anteriors afirmacions és falsa"],
+            "pregunta": "Quina afirmació és certa?",
+            "opcions": ["Una tupla que avalua el predicat d'un CHECK a 'desconegut' viola la restricció d'integritat", "Una tupla que avalua el predicat del WHERE a 'desconegut' surt al resultat de la consulta", "Una tupla que té un valor null a la clau forana viola la restricció d'integritat", "Cap de les anteriors afirmacions és certa"],
             "correcta": 3
           },
           {
@@ -546,7 +546,7 @@ const preguntes = {
 "correcta": 0
 },
 {
-"pregunta": "Quan en l'esquema conceptual trobem una associació binària, sempre podem transformar-la en una classe que tingui el mateix nom que l'associació.",
+"pregunta": "Quan en l'esquema conceptual trobem una associació binària, independentment de la multiplicitat, sempre podem transformar-la en una classe que tingui el mateix nom que l'associació i dues associacions amb les classes originals.",
 "opcions": ["Cert", "Fals"],
 "correcta": 1
 },

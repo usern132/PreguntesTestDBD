@@ -568,7 +568,7 @@ const preguntes = {
     ],
     tema3: [
         {
-            "pregunta": "Quina no és una conseqüència de les anomalies que motiven la teoria de la normalització?",
+            "pregunta": "Quina NO és una conseqüència de les anomalies que motiven la teoria de la normalització?",
             "opcions": ["Es generen joins innecessàries", "Un únic canvi pot provocar moltes modificacions a la base de dades", "Algunes dades es poden perdre sense voler", "No podem inserir una certa dada de forma independent"],
             "correcta": 0
           },
@@ -649,7 +649,7 @@ const preguntes = {
           },
           {
             "pregunta": "Quina NO és una raó per a desnormalitzar?",
-            "opcions": ["Quan les taules s’haurien d’ajuntar (join) molt sovint", "Quan la base de dades és molt petita","Quan la consist`encia de les dades es pot garantir d’alguna altra manera", "Quan no s’esperen canvis a les dades"],
+            "opcions": ["Quan les taules s’haurien d’ajuntar (join) molt sovint", "Quan la base de dades és molt petita","Quan la consistència de les dades es pot garantir d’alguna altra manera", "Quan no s’esperen canvis a les dades"],
             "correcta": 1
           },
           {
@@ -658,7 +658,7 @@ const preguntes = {
             "correcta": 3
           },
           {
-            "pregunta": "La 4NF no permet tenir depend`encies multivaluades.",
+            "pregunta": "La 4NF no permet tenir dependències multivaluades.",
             "opcions": ["Cert", "Fals"],
             "correcta": 1
           },
@@ -870,10 +870,135 @@ const preguntes = {
             "correcta": 2
           },
           {
-            "pregunta": "De quin tipus de valors faciliten el càlcul les clausules 'GROUPING SETS'?",
+            "pregunta": "De quin tipus de valors faciliten el càlcul les clàusules 'GROUPING SETS'?",
             "opcions": ["Agregats", "Derivats", "Atòmics", "Marginals"],
             "correcta": 3
-          }
+          },
+{
+"pregunta": "Quin tipus de sistema NO forma part del suport a la presa de decisions?",
+"opcions": ["Machine Learning", "ETL", "Reporting", "OLAP", "ERP", "Data Warehouse"],
+"correcta": 4
+},
+{
+"pregunta": "Quina característica té un magatzem de dades?",
+"opcions": ["Orientat a temes", "Orientat a la funcionalitat", "Orientat a decisions", "Orientat a transaccions"],
+"correcta": 0
+},
+{
+"pregunta": "Que un magatzem de dades sigui 'timevariant' vol dir que el software està en permanent evolució?",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Que un magatzem de dades sigui 'non-volatile' vol dir que mai s'esborra cap dada?",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Que un magatzem de dades sigui 'integrated' vol dir que els seus components de programari interactuen com si fos un sistema monolític?",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Una arquitectura d'un sol nivell d'emmagatzemament de dades (data warehousing), genera un magatzem de dades virtual.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "En una arquitectura de dos nivells d'emmagatzemament de dades (data warehousing), les dades es poden replicar com a màxim dues vegades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Quina NO es considera una limitació dels fulls de càlcul per analitzar dades multidimensionals?",
+"opcions": ["No gestiona metadades", "No permeten operacions d'àlgebra lineal", "Permet un número limitat de cel·les", "La posició de les dades limita certes operacions", "No gestiona jerarquies d'agregació"],
+"correcta": 1
+},
+{
+"pregunta": "Les eines OLAP guarden les dades en una estructura de dades física en forma de cub n-dimensional.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Un cub de dades és una metàfora per a una taula estadística.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Una taula relacional és equivalent a un cub de dades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Les operacions de 'Slice&Dice' són seleccions sobre les dades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Les operacions de 'Roll-up' i 'Drill-Down' indiquen agrupacions de dades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Quin avantatge de la modelització de dades operacionals ens és útil també per modelitzar dades decisionals?",
+"opcions": ["Facilita la comprensió del domini per part dels usuaris finals", "Resulta en sistemes molt eficients quan tenen canvis freqüents", "Redueix la quantitat de dades redundants", "Elimina la necessitat de modificar molts registres per un sol canvi"],
+"correcta": 0
+},
+{
+"pregunta": "Què busquem quan fem un esquema en estrella?",
+"opcions": ["Posar el focus en un tema concret", "Simplificar l'esquema conceptual", "Tots dos", "Cap dels dos"],
+"correcta": 2
+},
+{
+"pregunta": "Un esquema en estrella no pot tenir més de quatre dimensions.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Quins nivells té una eina ROLAP?",
+"opcions": ["Emmagatzemament i consulta", "Consulta i traducció", "Emmagatzemament i traducció", "Tots els anteriors"],
+"correcta": 2
+},
+{
+"pregunta": "Cada SGBD té la seva pròpia llibreria ROLAP.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "El principal problema de les eines ROLAP és que generen massa joins.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Els sistemes OLAP i OLTP implementats sobre SGBDs relacionals segueixen les mateixes tres fases de disseny.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Una Cube-Query fa tantes joins com dimensions tingui el cub més una.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Una Cube-Query sobre una eina ROLAP retorna una taula relacional.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Quin NO és un possible significat del valor null?",
+"opcions": ["Desconegut", "Agregat", "Integrat", "Inexistent"],
+"correcta": 2
+},
+{
+"pregunta": "Qualsevol consulta que utilitzi ROLLUP i/o CUBE, sempre es pot rescriure utilitzant només GROUPING SETS.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Sempre que es pugui, és millor utilitzar ROLLUP i/o CUBE, en lloc de GROUPING SETS, perquè facilita l'optimització de la consulta.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+}
     ],
     tema5:[
         {
@@ -942,15 +1067,90 @@ const preguntes = {
             "correcta": 1
           },
           {
-            "pregunta": "Podem tenir un document JSON que segueixi BCNF.",
+            "pregunta": "Podem tenir claus foranes en documents JSON.",
             "opcions": ["Cert", "Fals"],
-            "correcta": 0
+            "correcta": 1
           },
-          {
-            "pregunta": "NO podem tenir claus foranes en documents JSON.",
-            "opcions": ["Cert", "Fals"],
-            "correcta": 0
-          }
+{
+"pregunta": "Impedance mismatch vol dir que el format de les dades al disc i a la memoria és diferent.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "El fet de niar unes instàncies dins d'unes altres trenca la 1NF.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La independència lògica, d'acord amb l'arquitectura ANSI/SPARC, garanteix que un canvi en una taula no afectarà a cap vista de la base de dades, tret que el canvi afecti els atributs o taules utilitzats en la vista.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "En PostgreSQL, per canviar el valor d'una posició concreta d'un array, hem de reassignar tot l'array complet a la fila corresponent.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Un array en PostgreSQL té un nombre fix de valors, indicat en la seva declaració.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Un array en PostgreSQL pot contenir valors nulls.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "PostgreSQL disposa de funcions booleanes específiques que permeten definir fàcilment restriccions d'integritat sobre cadascun dels elements d'un array.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La principal diferència entre un gestor de documents i un de parelles clau-valor és que el primer aprofita l'estructura dels documents per a permetre la definició d'índexs secundaris.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "JSON és un model de base de dades semi-estructurat.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Podem tenir claus primàries en documents JSON.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "El principal propòsit de niuar diferents instàncies en un mateix document JSON és evitar joins.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "En un gestor de documents, podem definir l'esquema que aquests han de seguir.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Un gestor de documents guarda sempre al disc exactament el mateix que posa a la memòria.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "El tipus JSONB de PostgreSQL preserva l'ordre de les claus al document.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "El tipus JSONB de PostgreSQL elimina claus duplicades al document.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Podem tenir un document JSON que compleixi la mateixa propietat de la BCNF (és a dir, cada determinant determina per ell mateix tots els atributs del document, ja sigui directa o indirectament).",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+}
     ],
     tema6: [
     {
@@ -969,7 +1169,7 @@ const preguntes = {
       "correcta": 1
     },
     {
-      "pregunta": "Quina NO és un dels quatre problemes associats a les vistes?",
+      "pregunta": "Quin NO és un dels quatre problemes associats a les vistes?",
       "opcions": ["View updating", "Query rewriting", "View expansion", "Update through views", "View materialization"],
       "correcta": 4
     },
@@ -989,24 +1189,24 @@ const preguntes = {
       "correcta": 1
     },
     {
-      "pregunta": "Sempre es pot modificar una taula a través d’una vista que no conté cap altra taula.",
+      "pregunta": "Els SGBDs sempre permeten modificar una taula a través d’una vista que no conté cap altra taula.",
       "opcions": ["Cert", "Fals"],
       "correcta": 1
     },
     {
-      "pregunta": "Els SGBDs no permeten modificar una taula a través d’una vista que tingui un agregat.",
+      "pregunta": "Els SGBDs sempre permeten modificar una taula a través d’una vista que tingui un agregat.",
       "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "correcta": 1
     },
     {
-      "pregunta": "Els SGBDs no permeten modificar una taula a través d’una vista que faci una join.",
+      "pregunta": "Els SGBDs sempre permeten modificar una taula a través d’una vista que faci una join.",
       "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "correcta": 1
     },
     {
       "pregunta": "Quan NO podem propagar els canvis d’una taula a les seves vistes materialitzades?",
-      "opcions": ["On commit", "On statement", "On demand", "Podem propagar-los de les tres maneres"],
-      "correcta": 3
+      "opcions": ["Next <date>", "On commit", "On statement", "On demand", "Podem propagar-los de totes les maneres anteriors"],
+      "correcta": 4
     },
     {
       "pregunta": "Només cal crear un log per fer manteniment de vistes incremental.",
@@ -1014,12 +1214,12 @@ const preguntes = {
       "correcta": 0
     },
     {
-      "pregunta": "Sempre podem utilitzar una vista materialitzada per implementar una aserció.",
+      "pregunta": "Sempre podem utilitzar una vista materialitzada per implementar una asserció.",
       "opcions": ["Cert", "Fals"],
       "correcta": 0
     },
     {
-      "pregunta": "Per implementar una aserció amb una vista materialitzada, cal que la vista sempre estigui buida.",
+      "pregunta": "Per implementar una asserció amb una vista materialitzada, cal que la vista sempre estigui buida.",
       "opcions": ["Cert", "Fals"],
       "correcta": 1
     },
@@ -1058,11 +1258,131 @@ const preguntes = {
       "opcions": ["Cert", "Fals"],
       "correcta": 1
     },
-    {
-      "pregunta": "Per a triar el conjunt òptim de vistes materialitzades, podem utilitzar un algorisme greedy.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    }
+{
+"pregunta": "En quin nivell de l'arquitectura ANSI/SPARC trobem més esquemes?",
+"opcions": ["Internal", "Conceptual", "External", "Trobem a tots el mateix nombre"],
+"correcta": 2
+},
+{
+"pregunta": "La consulta que defineix una vista sempre està guardada al catàleg de la base de dades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Quin és un exemple paradigmàtic de vistes materialitzades?",
+"opcions": ["DW", "NOSQL", "Tots dos", "Cap dels dos"],
+"correcta": 0
+},
+{
+"pregunta": "Quin problema aplica només a vistes no-materialitzades?",
+"opcions": ["Update through views", "Query rewriting", "View expansion", "View updating", "Tots quatre problemes apliquen a qualsevol tipus de vista"],
+"correcta": 2
+},
+{
+"pregunta": "Quan es dóna el problema de View expansion?",
+"opcions": ["Quan modifiquem una taula", "Quan consultem una vista", "Quan modifiquem una vista", "Quan consultem una taula"],
+"correcta": 1
+},
+{
+"pregunta": "Quan es dóna el problema de Query rewriting?",
+"opcions": ["Quan consultem una taula", "Quan modifiquem una vista", "Quan modifiquem una taula", "Quan consultem una vista"],
+"correcta": 0
+},
+{
+"pregunta": "Quan es dóna el problema de View updating?",
+"opcions": ["Quan modifiquem una vista", "Quan modifiquem una taula", "Quan consultem una vista", "Quan consultem una taula"],
+"correcta": 1
+},
+{
+"pregunta": "Quan es dóna el problema de Update through views?",
+"opcions": ["Quan consultem una taula", "Quan consultem una vista", "Quan modifiquem una vista", "Quan modifiquem una taula"],
+"correcta": 2
+},
+{
+"pregunta": "Quants dels tres problemes teòrics que tenen associats a les vistes materialitzades podem veure explícitament reflectits a la seva sentència de creació d'Oracle?",
+"opcions": ["Cap", "Un", "Dos", "Tres"],
+"correcta": 3
+},
+{
+"pregunta": "View Expansion consisteix simplement en substituir el nom de la vista que apareix a la consulta per la corresponent definició que podem trobar al catàleg de la base de dades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Update Through Views consisteix a utilitzar les vistes en comptes dels índexs per accedir més ràpid a les dades quan les hem de modificar.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Els SGBDs permeten modificar una taula a través d'una vista independentment del predicat lògic que es posi al WHERE de la definició de la vista, sempre que aquest no contingui cap subconsulta.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Els SGBDs permeten modificar una taula a través d'una vista definida sobre una altra vista si les dues definicions de les vistes compleixen, per separat, les condicions necessàries.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "View Updating consisteix a propagar els canvis que es produeixen a una taula a totes les vistes materialitzades definides sobre ella.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Hem de crear un únic log a cada taula que tingui vistes materialitzar a mantenir de forma incremental, independentment del seu nombre.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Fer el manteniment d'una vista materialitzada de forma incremental sempre és el més eficient.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Sempre es pot fer el manteniment d'una vista materialitzada de forma incremental si el log conté les dades adequades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Query Rewriting consisteix en que l'usuari rescrigui la seva consulta aprofitant les vistes materialitzades existents, en comptes de les taules.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "En general, els SGBDs fan una cerca exhaustiva de totes les possibilitats de rescriptura d'una consulta emprant les vistes materialitzades que s'hagin definit amb anterioritat.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Per decidir si val la pena materialitzar o no una certa consulta, cal tenir en compte...",
+"opcions": ["la freqüència amb que s'executa", "l'espai que ocuparà el seu resultat", "la freqüència amb que es modifiquen les taules que accedeix", "totes les anteriors"],
+"correcta": 3
+},
+{
+"pregunta": "Les vistes materialitzades que podem materialitzar ve limitat per...",
+"opcions": ["l'espai disponible en el disc", "el temps disponible per fer el seu manteniment", "totes les anteriors", "cap de les anteriors"],
+"correcta": 2
+},
+{
+"pregunta": "Utilitzant un algorisme greedy, sempre tindrem el conjunt òptim de vistes materialitzades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Utilitzant un algorisme greedy, mai tindrem el conjunt òptim de vistes materialitzades.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Si hem utilitzat un algorisme greedy per seleccionar-les, ja no hem de canviar mai el conjunt de vistes que hem decidit materialitzar.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Podem estimar la cardinalitat del resultat d'una consulta amb agregats sobre la taula T(a1, ..., an) com...",
+"opcions": ["| T |", "dist(a1) · ... · dist(an)", "min(| T |, dist(a1) · ... · dist(an))", "max(| T |, dist(a1) · ... · dist(an))"],
+"correcta": 2
+}
   ],
   tema7:[
     {

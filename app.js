@@ -151,7 +151,132 @@ const preguntes = {
             "pregunta": "Una SEQUENCE de PostgreSQL es pot utilitzar a taules diferents.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
-          }
+          },
+{
+"pregunta": "El mètode de disseny que utilitzem NO depèn de la mida de la companyia.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "El mètode de disseny que utilitzem és diferent si ja existeix una base de dades prèviament o no.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Per ajudar-nos a entendre millor les multiplicitats de les associacions, podem dibuixar algunes instàncies i les seves interrelacions.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "L'esquema lògic de la base de dades, només hauria de permetre instanciacions correctes de l'esquema conceptual.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Un atribut d'una classe, es pot representar també mitjançant una associació d'aquesta amb una segona classe.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Una especialització mai pot ser equivalent a una aggregació.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Parlem de relativisme semàntic només quan els dos (o més) esquemes representen exactament la mateixa realitat.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Parlem de relativisme semàntic només quan els dos (o més) esquemes contenen exactament el mateix nombre de taules.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Utilitzar un zero és equivalent a utilitzar un valor null, sempre que el primer no pertanyi al domini de l'atribut.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "El problema d'utilitzar valors null és que malbaratem espai.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Les taules de veritat de lògica binària són un subconjunt de les de lògica ternària, on simplement eliminem les files i columnes que fan referència a 'Desconegut'.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Si a l'entrada de l'operació algebraica d'unió hi ha dues files que només tenen valor null a tots els seus atributs, a la sortida tindré només una fila.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Si a l'entrada de l'operació algebraica d'intersecció hi ha dues files (una a cada taula) que només tenen valor null a tots els seus atributs, a la sortida no apareixerà aquesta fila.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Si a l'entrada de l'operació algebraica de diferència hi ha dues files (una a cada taula) que només tenen valor null a tots els seus atributs, a la sortida no apareixerà aquesta fila.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Si com a resultat d'una operació algebraica de projecció queda més d'una fila que només té valor null a tots els seus atributs, a la sortida apareixerà aquesta fila tantes vegades com la tingues a l'entrada.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Sempre puc implementar una diferència indistintament amb un 'NOT IN' o un 'NOT EXISTS'.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "En qualsevol dels tres tipus d'implementació de Generalització/Especializació posem un atribut discriminant.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "En cap dels tres tipus d'implementació de Generalització/Especializació posem claus foranes.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Quan implementem una Generalització/Especializació en un SGBD relacional, sempre cal fer una join per consultar juntes totes les dades de la superclasse.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Quan implementem una Generalització/Especializació en un SGBD relacional, sempre cal utilitzar una outer join per consultar juntes totes les dades de qualsevol de les subclasses.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Si una consulta té només dues taules al FROM, podem intercanviar LEFT per RIGHT i obtenir el mateix resultat, simplement canviant a la vegada l'ordre de les taules.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La FULL OUTER JOIN de dues taules permet obtenir el mateix resultat que una LEFT OUTER JOIN o una RIGHT OUTER JOIN, simplement afegint un cert predicat al WHERE.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La FULL OUTER JOIN de dues taules és equivalent a fer la unió d'una LEFT OUTER JOIN i una RIGHT OUTER JOIN.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Quan utilitzem la implementació de l'herència en PostgreSQL, quina de les següents afirmacions és certa?",
+"opcions": ["Només podem inserir dades a la taula de la subclasse", "Només podem inserir dades a la taula de la superclasse", "Podem inserir dades indistintament a qualsevol de les dues taules i tindrem el mateix resultat", "Podem inserir dades a qualsevol de les dues taules, però no tindrem el mateix resultat"],
+"correcta": 3
+},
+{
+"pregunta": "Un atribut tipus SERIAL sempre tindrà valors consecutius tret que haguem esborrat alguna fila de la taula.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+}
     ],
     tema2:[
         {

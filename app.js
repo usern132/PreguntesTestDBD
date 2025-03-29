@@ -35,11 +35,47 @@ const preguntes = {
             "opcions": ["DW", "OLTP", "Machine Learning", "OLAP"],
             "correcta": 1
           },
+
+ {
+    "pregunta": "¿Quin tipus de sistema d'informació és orientat a temes?",
+    "opcions": ["Operational", "Decisional"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Quin tipus de sistema d'informació té més usuaris?",
+    "opcions": ["Decisional", "Operational"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Les consultes de quin tipus de sistema d'informació accedeixen, en general, més tuples?",
+    "opcions": ["Operational", "Decisional"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Quin tipus de sistema d'informació utilitza menys fonts de dades?",
+    "opcions": ["Decisional", "Operational"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Quin tipus de sistema d'informació accedeix dades atòmiques?",
+    "opcions": ["Operational", "Decisional"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Quin tipus de sistema d'informació utilitza principalment dades històriques?",
+    "opcions": ["Decisional", "Operational"],
+    "correcta": 0
+  },
           {
             "pregunta": "Un sistema d'informació decisional es considera...",
             "opcions": ["Read-only", "Write-only", "Read-write"],
             "correcta": 0
           },
+  {
+  "pregunta": "¿Quin tipus de sistema d'informació utilitza transaccions?",
+  "opcions": ["Operational", "Decisional"],
+  "correcta": 0
+},
           {
             "pregunta": "Per a quin tipus de sistemes d'informació és rellevant el seu rendiment (performance)?",
             "opcions": ["Només operationals", "Només decisionals", "Tots dos", "Cap dels dos"],
@@ -74,7 +110,32 @@ const preguntes = {
             "pregunta": "Quin dels models ha de ser més expressiu?",
             "opcions": ["El conceptual", "El lògic", "Els dos igual", "No importa"],
             "correcta": 0
-          }
+          },
+{
+"pregunta": "¿Quin tipus de sistema d'informació ha de gestionar un volum de dades més gran?",
+"opcions": ["Decisional", "Operational"],
+"correcta": 0
+},
+{
+"pregunta": "La diferència en la fase de disseny conceptual d'un sistema operacional i un decisional és que l'operacional utilitza qualsevol estructura de classes i interrelacions, mentre que el decisional utilitza una molt concreta.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La diferència en la fase de disseny lògic d'un sistema operacional i un decisional és que el decisional utilitza qualsevol estructura de taules i restriccions d'integritat, mentre que l'operacional utilitza una molt concreta.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Es fonamental que l'esquema lògic l'entenguin els usuaris del sistema.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "¿En quina dècada va aparèixer la primera versió de SQL?",
+"opcions": ["70s", "80s", "90s", "00s"],
+"correcta": 1
+}
     ],
     tema1:[
         {

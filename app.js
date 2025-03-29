@@ -298,7 +298,87 @@ const preguntes = {
             "pregunta": "Un atribut multivaluat emmagatzemat per files permet un grau més alt de concurrència.",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
-          }
+          },
+{
+"pregunta": "Les claus alternatives no tenen una clàusula pròpia a l'estàndard per a crear-les?",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La millor manera per a resoldre un deadlock provocat per claus foranes entre dues taules, és sempre crear una de les taules sense clau forana i afegir-li a posteriori.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Què és menys important en una associació binària quan fem el disseny conceptual de la base de dades?",
+"opcions": ["Si la multiplicitat màxima de cada costat", "Si la multiplicitat mínima de cada costat", "El nom de l'associació", "La direcció de navegació"],
+"correcta": 3
+},
+{
+"pregunta": "En quin tipus d'associació binària és totalment irrellevant si un dels costats admet zeros o no?",
+"opcions": ["*-*", "1-*", "1-1", "Sempre és rellevant"],
+"correcta": 0
+},
+{
+"pregunta": "Quin tipus d'associació binària s'ha d'implementar sempre amb una taula pròpia (a més de les dues corresponents a les classes)?",
+"opcions": ["*-*", "1-*", "1-1", "Totes les anteriors"],
+"correcta": 0
+},
+{
+"pregunta": "En quin tipus d'associació binària podem triar a quina taula posem la clau forana?",
+"opcions": ["*-*", "1-*", "1-1", "Totes les anteriors"],
+"correcta": 2
+},
+{
+"pregunta": "Independentment de les multiplicitats d'una associació binària, sempre hi ha una opció per evitar que es puguin generar valors null.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "El millor és sempre triar la implementació d'una associació binària que no genera mai valors null.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "En el model relacional clàssic, en presència de quin tipus d'associació binària podem fusionar les dues taules en una?",
+"opcions": ["*-*", "1-*", "1-1", "Totes les anteriors"],
+"correcta": 2
+},
+{
+"pregunta": "En una associació reflexiva simètrica, només pot trobar-se amb multiplicitat 1-1.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Per tal de garantir la simetria d'una associació binària, sempre haurem d'utilitzar triggers.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "La implementació d'una associació ternària en un SGBD relacional mai genera valors null.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Quan en l'esquema conceptual trobem una associació binària, sempre podem transformar-la en una classe que tingui el mateix nom que l'associació.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+},
+{
+"pregunta": "Un atribut multivaluat emmagatzemat per files mai genera valors null.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Un atribut multivaluat emmagatzemat per columnes genera un únic accés a disc per recuperar tots els valors.",
+"opcions": ["Cert", "Fals"],
+"correcta": 0
+},
+{
+"pregunta": "Sempre podem implementar totes les restriccions d'integritat corresponents a les multiplicitats '1' i '*' de les associacions binàries amb només claus primàries, foranes i 'NOT NULL'.",
+"opcions": ["Cert", "Fals"],
+"correcta": 1
+}
     ],
     tema3: [
         {

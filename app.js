@@ -396,7 +396,7 @@ const preguntes = {
               "Gairebé sempre tenen zeros",
               "Poden ser simètriques o no",
               "En podem trobar amb qualsevol multiplicitat",
-              "Poden generar bucles infinits"
+              "Poden generar cadenes amb infinites instàncies"
             ],
             "correcta": 3
           },
@@ -416,7 +416,7 @@ const preguntes = {
             "correcta": 3
           },
           {
-            "pregunta": "Hi ha casos en què podem implementar una associació ternària amb simplement una clau forana.",
+            "pregunta": "Hi ha casos en que podem implementar una associació ternària amb simplement una clau forana (sense cap taula intermitja).",
             "opcions": ["Cert", "Fals"],
             "correcta": 1
           },
@@ -598,7 +598,7 @@ const preguntes = {
             "correcta": 1
           },
           {
-            "pregunta": "Una relació està en 1NF si tots els seus atributs són atòmics.",
+            "pregunta": "Una relació està en 1NF si tots els seus atributs són atòmics (és a dir, indivisibles).",
             "opcions": ["Cert", "Fals"],
             "correcta": 0
           },
@@ -653,9 +653,9 @@ const preguntes = {
             "correcta": 1
           },
           {
-            "pregunta": "Les relacions en 4NF ho estan també en ...",
-            "opcions": ["... NF2", "... 3NF","... BCNF", "... totes les anteriors"],
-            "correcta": 3
+            "pregunta": "La BCNF es va definir perquè 2NF i 3NF no garanteixen l’absència d’anomalies.",
+            "opcions": ["Cert", "Fals"],
+            "correcta": 0
           },
           {
             "pregunta": "La 4NF no permet tenir dependències multivaluades.",

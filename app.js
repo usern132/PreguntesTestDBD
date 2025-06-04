@@ -2325,12 +2325,12 @@ const preguntes = {
       },
       {
           "pregunta": "Què NO forma part de l’entrada del procés de millora del rendiment del sistema?",
-          "opcions": ["Llista d’operacions de modificació", "Espai de disc disponible", "Llista d’operacions de consulta", "Llista de restriccions d’integritat", "Objectiu de rendiment a assolir"],
+          "opcions": ["Llista d'operacions de modificació, juntament amb les seves freqüències", "Espai de disc disponible", "Llista d’operacions de consulta, juntament amb les seves freqüències", "Llista de restriccions d’integritat, juntament amb les probabilitats de ser violades", "Objectiu de rendiment a assolir"],
           "correcta": 3
       },
       {
           "pregunta": "Què NO forma part de la sortida del procés de millora del rendiment del sistema?",
-          "opcions": ["Rescriptura de cada consulta", "Normalització/Desnormalització de les taules", "Conjunt de vistes materialitzades", "Conjunt d’índexs", "Particionament de les taules"],
+          "opcions": ["Rescriptura de cada consulta  (segons els criteris de l’optimització semàntica)", "Normalització/Desnormalització de les taules", "Conjunt de vistes materialitzades", "Conjunt d’índexs", "Particionament de les taules"],
           "correcta": 0
       },
       {
@@ -2594,7 +2594,7 @@ const preguntes = {
           "correcta": 0
       },
       {
-          "pregunta": "És important posar el dietari (log) en un disc dedicat exclusivament per a ell.",
+          "pregunta": "És important posar el dietari (log) en un disc dedicat exclusivament per a ell, perquè així evitem moviments innecessaris del capçal i afavorim la seva escriptura seqüencial.",
           "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
@@ -2615,7 +2615,7 @@ const preguntes = {
           "correcta": 4
       },
       {
-          "pregunta": "Trossejar les transaccions read-write millora el rendiment del sistema.",
+          "pregunta": "El fet que trossejar una transacció afecti o no al seu aıllament depen nomes d’ella mateixa i no de cap altra transaccio que es pugui executar de forma concurrent",
           "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
@@ -2635,7 +2635,7 @@ const preguntes = {
           "correcta": 1
       },
       {
-          "pregunta": "Si concatenem (chain) dues transaccions, no s’alliberen els recursos de la primera i aquests es reutilitzen en la segona.",
+          "pregunta": "Si concatenem (chain) dues transaccions, no s’alliberen els recursos de la primera (p.e., memoria) de la primera i aquests es reutilitzen en la segona, que manté la mateixa configuració (p.e., nivell d'aïllament).",
           "opcions": ["Cert", "Fals"],
           "correcta": 0
       },

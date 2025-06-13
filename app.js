@@ -5,7 +5,7 @@ const preguntes = {
             "opcions": ["Cert", "Fals"],
             "correcta": 1
           },
-          {       "correcta": 3
+          {
             "pregunta": "Quin NO podem considerar un sinònim?",
             "opcions": ["Taula", "Registre", "Dataset", "Fitxer", "Relació", "Classe"],
             "correcta": 1

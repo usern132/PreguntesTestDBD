@@ -2617,7 +2617,7 @@ const preguntes = {
       {
           "pregunta": "El fet que trossejar una transacció afecti o no al seu aıllament depen nomes d’ella mateixa i no de cap altra transaccio que es pugui executar de forma concurrent",
           "opcions": ["Cert", "Fals"],
-          "correcta": 0
+          "correcta": 1
       },
       {
           "pregunta": "Trossejar una transacció afecta només a ella mateixa i no a cap altra transacció concurrent.",

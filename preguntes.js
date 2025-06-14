@@ -2,8 +2,8 @@ const preguntes = {
   tema0: [
     {
       "pregunta": "PostgreSQL és una base de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quin NO podem considerar un sinònim?",
@@ -93,8 +93,8 @@ const preguntes = {
     },
     {
       "pregunta": "El disseny de la base de dades relacional per a un sistema d'informació segueix els mateixos tres passos, independentment que aquest sigui operacional o decisional.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "En què es basa el disseny de la base de dades?",
@@ -118,18 +118,18 @@ const preguntes = {
     },
     {
       "pregunta": "La diferència en la fase de disseny conceptual d'un sistema operacional i un decisional és que l'operacional utilitza qualsevol estructura de classes i interrelacions, mentre que el decisional utilitza una molt concreta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La diferència en la fase de disseny lògic d'un sistema operacional i un decisional és que el decisional utilitza qualsevol estructura de taules i restriccions d'integritat, mentre que l'operacional utilitza una molt concreta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Es fonamental que l'esquema lògic l'entenguin els usuaris del sistema.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "¿En quina dècada va aparèixer la primera versió de SQL?",
@@ -160,8 +160,8 @@ const preguntes = {
     },
     {
       "pregunta": "El valor nul és un dels del domini de l'atribut.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quina afirmació és certa?",
@@ -180,13 +180,13 @@ const preguntes = {
     },
     {
       "pregunta": "El GROUP BY genera un grup per a cada valor nul que troba.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El UNIQUE permet tenir més d'un valor nul.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quin NO és un tipus de Generalització/Especialització?",
@@ -210,123 +210,123 @@ const preguntes = {
     },
     {
       "pregunta": "Una SEQUENCE de PostgreSQL es pot utilitzar a taules diferents.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El mètode de disseny que utilitzem NO depèn de la mida de la companyia.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El mètode de disseny que utilitzem és diferent si ja existeix una base de dades prèviament o no.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Per ajudar-nos a entendre millor les multiplicitats de les associacions, podem dibuixar algunes instàncies i les seves interrelacions.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L'esquema lògic de la base de dades, només hauria de permetre instanciacions correctes de l'esquema conceptual.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un atribut d'una classe, es pot representar també mitjançant una associació d'aquesta amb una segona classe.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Una especialització mai pot ser equivalent a una aggregació.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Parlem de relativisme semàntic només quan els dos (o més) esquemes representen exactament la mateixa realitat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Parlem de relativisme semàntic només quan els dos (o més) esquemes contenen exactament el mateix nombre de taules.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Utilitzar un zero és equivalent a utilitzar un valor null, sempre que el primer no pertanyi al domini de l'atribut.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El problema d'utilitzar valors null és que malbaratem espai.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Les taules de veritat de lògica binària són un subconjunt de les de lògica ternària, on simplement eliminem les files i columnes que fan referència a 'Desconegut'.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Si a l'entrada de l'operació algebraica d'unió hi ha dues files que només tenen valor null a tots els seus atributs, a la sortida tindré només una fila.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Si a l'entrada de l'operació algebraica d'intersecció hi ha dues files (una a cada taula) que només tenen valor null a tots els seus atributs, a la sortida no apareixerà aquesta fila.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si a l'entrada de l'operació algebraica de diferència hi ha dues files (una a cada taula) que només tenen valor null a tots els seus atributs, a la sortida no apareixerà aquesta fila.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Si com a resultat d'una operació algebraica de projecció queda més d'una fila que només té valor null a tots els seus atributs, a la sortida apareixerà aquesta fila tantes vegades com la tingues a l'entrada.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Sempre puc implementar una diferència indistintament amb un 'NOT IN' o un 'NOT EXISTS'.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "En qualsevol dels tres tipus d'implementació de Generalització/Especializació posem un atribut discriminant.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "En cap dels tres tipus d'implementació de Generalització/Especializació posem claus foranes.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quan implementem una Generalització/Especializació en un SGBD relacional, sempre cal fer una join per consultar juntes totes les dades de la superclasse.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quan implementem una Generalització/Especializació en un SGBD relacional, sempre cal utilitzar una outer join per consultar juntes totes les dades de qualsevol de les subclasses.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si una consulta té només dues taules al FROM, podem intercanviar LEFT per RIGHT i obtenir el mateix resultat, simplement canviant a la vegada l'ordre de les taules.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La FULL OUTER JOIN de dues taules permet obtenir el mateix resultat que una LEFT OUTER JOIN o una RIGHT OUTER JOIN, simplement afegint un cert predicat al WHERE.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La FULL OUTER JOIN de dues taules és equivalent a fer la unió d'una LEFT OUTER JOIN i una RIGHT OUTER JOIN.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quan utilitzem la implementació de l'herència en PostgreSQL, quina de les següents afirmacions és certa?",
@@ -335,8 +335,8 @@ const preguntes = {
     },
     {
       "pregunta": "Un atribut tipus SERIAL sempre tindrà valors consecutius tret que haguem esborrat alguna fila de la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     }
   ],
   tema2: [
@@ -352,13 +352,13 @@ const preguntes = {
     },
     {
       "pregunta": "La clau primària d'una taula sempre genera automàticament un índex B+ associat?",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un deadlock provocat per claus foranes entre dues taules es pot resoldre creant una tercera taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quina és la millor opció per inserir tuples quan tenim un deadlock provocat per claus foranes entre dues taules?",
@@ -402,8 +402,8 @@ const preguntes = {
     },
     {
       "pregunta": "En una associació reflexiva simètrica, cal guardar a la base de dades les dues versions de la parella.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "La implementació d'una associació ternària genera...",
@@ -417,33 +417,33 @@ const preguntes = {
     },
     {
       "pregunta": "Hi ha casos en que podem implementar una associació ternària amb simplement una clau forana (sense cap taula intermitja).",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Una classe pot ser part de dues amb una agregació composta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "En una agregació composta, tots dos costats poden tenir un zero.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Podem encadenar tantes agregacions compostes com vulguem.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
-      "pregunta": "Una clau forana de dos atributs és equivalent a dues claus foranes d'un atribut cadascuna.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Una classe pot ser part de dues amb una agregació composta.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
+      "pregunta": "En una agregació composta, tots dos costats poden tenir un zero.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
+      "pregunta": "Podem encadenar tantes agregacions compostes com vulguem.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
+      "pregunta": "Una clau forana de dos atributs és equivalent a dues claus foranes d'un atribut cadascuna.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
       "pregunta": "A les associacions binàries, només les *-* poden tenir atributs propis.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si una associació binària té un atribut, el posem...",
@@ -467,33 +467,33 @@ const preguntes = {
     },
     {
       "pregunta": "Quan un atribut multivaluat pot tenir molts valors, és millor emmagatzemar-ho per columnes.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un atribut multivaluat emmagatzemat per columnes ocupa menys espai.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un atribut multivaluat emmagatzemat per files és més difícil d'agregar.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un atribut multivaluat emmagatzemat per files permet un grau més alt de concurrència.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Les claus alternatives no tenen una clàusula pròpia a l'estàndard per a crear-les?",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La millor manera per a resoldre un deadlock provocat per claus foranes entre dues taules, és sempre crear una de les taules sense clau forana i afegir-li a posteriori.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Què és menys important en una associació binària quan fem el disseny conceptual de la base de dades?",
@@ -517,13 +517,13 @@ const preguntes = {
     },
     {
       "pregunta": "Independentment de les multiplicitats d'una associació binària, sempre hi ha una opció per evitar que es puguin generar valors null.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El millor és sempre triar la implementació d'una associació binària que no genera mai valors null.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "En el model relacional clàssic, en presència de quin tipus d'associació binària podem fusionar les dues taules en una?",
@@ -532,38 +532,38 @@ const preguntes = {
     },
     {
       "pregunta": "En una associació reflexiva simètrica, només pot trobar-se amb multiplicitat 1-1.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Per tal de garantir la simetria d'una associació binària, sempre haurem d'utilitzar triggers.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La implementació d'una associació ternària en un SGBD relacional mai genera valors null.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quan en l'esquema conceptual trobem una associació binària, independentment de la multiplicitat, sempre podem transformar-la en una classe que tingui el mateix nom que l'associació i dues associacions amb les classes originals.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un atribut multivaluat emmagatzemat per files mai genera valors null.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un atribut multivaluat emmagatzemat per columnes genera un únic accés a disc per recuperar tots els valors.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Sempre podem implementar totes les restriccions d'integritat corresponents a les multiplicitats '1' i '*' de les associacions binàries amb només claus primàries, foranes i 'NOT NULL'.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     }
   ],
   tema3: [
@@ -589,28 +589,28 @@ const preguntes = {
     },
     {
       "pregunta": "Una dependència funcional de X a Y ({X} → {Y}) vol dir que si sabem el valor de X, podem saber el de Y.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Una dependència funcional plena és una dependència funcional amb un únic atribut a la part dreta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Una relació està en 1NF si tots els seus atributs són atòmics (és a dir, indivisibles).",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Una relació està en 2NF si totes les dependències funcionals cap als atributs que no formen part d'una clau són plenes.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Una relació està en 3NF si cap dels seus atributs està a la part esquerra d'una dependència funcional.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quines formes normals tenen excepció?",
@@ -619,13 +619,13 @@ const preguntes = {
     },
     {
       "pregunta": "BCNF no permet tenir claus alternatives.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "No tots els casos es poden normalitzar fins a BCNF.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quina NO és una de les regles d'Armstrong?",
@@ -639,13 +639,13 @@ const preguntes = {
     },
     {
       "pregunta": "Amb l'algorisme de normalització d'anàlisi es poden perdre dependències funcionals.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Donades les dependències funcionals, la normalització es pot automatitzar totalment.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quina NO és una raó per a desnormalitzar?",
@@ -654,33 +654,33 @@ const preguntes = {
     },
     {
       "pregunta": "La BCNF es va definir perquè 2NF i 3NF no garanteixen l’absència d’anomalies.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La 4NF no permet tenir dependències multivaluades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Les anomalies a les que fa referència la normalització no afecten a les consultes.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La normalització formalitza les propietats que ha de complir un disseny de bases de dades relacionals per a ser considerat de qualitat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El producte cartesià de dos conjunts és també un tipus de relació, però no funcional.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El principal propòsit de les formes normals del model relacional és millorar el rendiment (és a dir, temps de resposta) del sistema.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quin dels següents tipus de dades és atòmic?",
@@ -689,43 +689,43 @@ const preguntes = {
     },
     {
       "pregunta": "Si una relació que no està en 2FN i volem que ho estigui, el que hem de fer és dividir els seus atributs en subconjunts disjunts tant com calgui fins que ho estigui.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si una relació que no està en 3FN i volem que ho estigui, el que hem de fer és dividir els seus atributs en subconjunts disjunts tant com calgui fins que ho estigui, però deixant en cada divisió com clau forana entre les parts el determinant que provoca la violacio de la forma normal.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La normalització fins a BCNF és única.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "La clausura de dependències funcionals conté totes les dependències implícites al disseny.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Si executem l'algorisme de normalització d'anàlisi diverses vegades, podem obtenir resultats diferents.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L'algorisme de normalització d'anàlisi NO garanteix que al final complim BCNF.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L'algorisme de normalització d'anàlisi tracta de trobar la 'relació universal'.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un esquema normalitzat és millor que un que no ho està, perquè el primer conté redundàncies que el segon no té.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Donada la seqüència de conjunts d'esquemes tals que compleixen una certa dependència funcional: E1NF, E2NF, E3NF, EBCNF i E4NF (per exemple, E3NF representa tots el esquemes que compleixen 3NF). Si considerem qualsevol parella EX-EY tal que EX apareix abans que EY en aquesta seqüència, podem afirmar que:",
@@ -734,23 +734,23 @@ const preguntes = {
     },
     {
       "pregunta": "Qualsevol relació està en NF2.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Una dependència multivaluada és un tipus de dependència funcional.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Si una relació està en 4NF ho està també en BCNF.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
-      "pregunta": "Per normalitzar una relació que no estigui en 4FN, hem de fer el producte cartesià del atributs que l'estiguin violant.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Si una relació està en 4NF ho està també en BCNF.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
+    },
+    {
+      "pregunta": "Per normalitzar una relació que no estigui en 4FN, hem de fer el producte cartesià del atributs que l'estiguin violant.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     }
   ],
   tema4: [
@@ -821,18 +821,18 @@ const preguntes = {
     },
     {
       "pregunta": "Les bases de dades decisionals admeten redundàncies.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Les bases de dades decisionals sempre actualitzen les dades en temps real.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
-      "pregunta": "Les bases de dades decisionals NO necessiten control de concurrència.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Les bases de dades decisionals sempre actualitzen les dades en temps real.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
+    },
+    {
+      "pregunta": "Les bases de dades decisionals NO necessiten control de concurrència.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quina NO és una característica de les eines OLAP?",
@@ -851,8 +851,8 @@ const preguntes = {
     },
     {
       "pregunta": "Un esquema en estrella té un únic fet.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quin tipus de SGBD utilitzen les eines ROLAP?",
@@ -886,28 +886,28 @@ const preguntes = {
     },
     {
       "pregunta": "Que un magatzem de dades sigui 'timevariant' vol dir que el software està en permanent evolució?",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Que un magatzem de dades sigui 'non-volatile' vol dir que mai s'esborra cap dada?",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Que un magatzem de dades sigui 'integrated' vol dir que els seus components de programari interactuen com si fos un sistema monolític?",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Una arquitectura d'un sol nivell d'emmagatzemament de dades (data warehousing), genera un magatzem de dades virtual.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
-      "pregunta": "En una arquitectura de dos nivells d'emmagatzemament de dades (data warehousing), les dades es poden replicar com a màxim dues vegades.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Una arquitectura d'un sol nivell d'emmagatzemament de dades (data warehousing), genera un magatzem de dades virtual.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
+    },
+    {
+      "pregunta": "En una arquitectura de dos nivells d'emmagatzemament de dades (data warehousing), les dades es poden replicar com a màxim dues vegades.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quina NO es considera una limitació dels fulls de càlcul per analitzar dades multidimensionals?",
@@ -916,28 +916,28 @@ const preguntes = {
     },
     {
       "pregunta": "Les eines OLAP guarden les dades en una estructura de dades física en forma de cub n-dimensional.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un cub de dades és una metàfora per a una taula estadística.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Una taula relacional és equivalent a un cub de dades.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
-      "pregunta": "Les operacions de 'Slice&Dice' són seleccions sobre les dades.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Una taula relacional és equivalent a un cub de dades.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
+      "pregunta": "Les operacions de 'Slice&Dice' són seleccions sobre les dades.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
+    },
+    {
       "pregunta": "Les operacions de 'Roll-up' i 'Drill-Down' indiquen agrupacions de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quin avantatge de la modelització de dades operacionals ens és útil també per modelitzar dades decisionals?",
@@ -951,8 +951,8 @@ const preguntes = {
     },
     {
       "pregunta": "Un esquema en estrella no pot tenir més de quatre dimensions.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quins nivells té una eina ROLAP?",
@@ -961,28 +961,28 @@ const preguntes = {
     },
     {
       "pregunta": "Cada SGBD té la seva pròpia llibreria ROLAP.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El principal problema de les eines ROLAP és que generen massa joins.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Els sistemes OLAP i OLTP implementats sobre SGBDs relacionals segueixen les mateixes tres fases de disseny.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Una Cube-Query fa tantes joins com dimensions tingui el cub més una.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
-      "pregunta": "Una Cube-Query sobre una eina ROLAP retorna una taula relacional.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Els sistemes OLAP i OLTP implementats sobre SGBDs relacionals segueixen les mateixes tres fases de disseny.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Una Cube-Query fa tantes joins com dimensions tingui el cub més una.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
+    },
+    {
+      "pregunta": "Una Cube-Query sobre una eina ROLAP retorna una taula relacional.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quin NO és un possible significat del valor null?",
@@ -991,30 +991,30 @@ const preguntes = {
     },
     {
       "pregunta": "Qualsevol consulta que utilitzi ROLLUP i/o CUBE, sempre es pot rescriure utilitzant només GROUPING SETS.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Sempre que es pugui, és millor utilitzar ROLLUP i/o CUBE, en lloc de GROUPING SETS, perquè facilita l'optimització de la consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     }
   ],
   tema5: [
     {
       "pregunta": "Els SGBDs relacionals permeten implementar qualsevol tipus de sistema d'informació de forma eficient.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Els sistemes NOSQL són schemaless.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
-      "pregunta": "Els sistemes NOSQL garanteixen les restriccions d'integritat, tal com fan els sistemes relacionals.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Els sistemes NOSQL són schemaless.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
+    },
+    {
+      "pregunta": "Els sistemes NOSQL garanteixen les restriccions d'integritat, tal com fan els sistemes relacionals.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quina NO és una conseqüència d'acceptar la variabilitat de l'esquema?",
@@ -1023,133 +1023,133 @@ const preguntes = {
     },
     {
       "pregunta": "La independència física, d'acord amb l'arquitectura ANSI/SPARC, garanteix que un canvi en l'esquema intern no afectarà a les taules de la base de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La independència lògica, d'acord amb l'arquitectura ANSI/SPARC, garanteix que un canvi en les vistes no afectarà a les taules de la base de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un SGBD relacional pot contenir una base de dades que segueixi a la vegada el model relacional i corelacional.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un atribut multivaluat guardat en un array generarà tants accessos a disc com elements tingui l'array.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un atribut multivaluat guardat en un array ocuparà més espai de disc que guardant-ho per files, però menys que fent-ho per columnes.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "En general, la funció per calcular agregats a partir d'un array, l'ha de definir l'usuari.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El nivell de concurrència que permet guardar un atribut multivaluat en un array és el mateix que si el guardem per columnes.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "XML és un model de base de dades semi-estructurat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quan tenim documents JSON, els hem de guardar en un SGBD relacional utilitzant el tipus de dades corresponent.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Podem tenir claus foranes en documents JSON.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Impedance mismatch vol dir que el format de les dades al disc i a la memoria és diferent.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El fet de niar unes instàncies dins d'unes altres trenca la 1NF.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La independència lògica, d'acord amb l'arquitectura ANSI/SPARC, garanteix que un canvi en una taula no afectarà a cap vista de la base de dades, tret que el canvi afecti els atributs o taules utilitzats en la vista.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "En PostgreSQL, per canviar el valor d'una posició concreta d'un array, hem de reassignar tot l'array complet a la fila corresponent.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un array en PostgreSQL té un nombre fix de valors, indicat en la seva declaració.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un array en PostgreSQL pot contenir valors nulls.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "PostgreSQL disposa de funcions booleanes específiques que permeten definir fàcilment restriccions d'integritat sobre cadascun dels elements d'un array.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La principal diferència entre un gestor de documents i un de parelles clau-valor és que el primer aprofita l'estructura dels documents per a permetre la definició d'índexs secundaris.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "JSON és un model de base de dades semi-estructurat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Podem tenir claus primàries en documents JSON.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El principal propòsit de niuar diferents instàncies en un mateix document JSON és evitar joins.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "En un gestor de documents, podem definir l'esquema que aquests han de seguir.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un gestor de documents guarda sempre al disc exactament el mateix que posa a la memòria.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El tipus JSONB de PostgreSQL preserva l'ordre de les claus al document.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El tipus JSONB de PostgreSQL elimina claus duplicades al document.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Podem tenir un document JSON que compleixi la mateixa propietat de la BCNF (és a dir, cada determinant determina per ell mateix tots els atributs del document, ja sigui directa o indirectament).",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     }
   ],
   tema6: [
@@ -1175,33 +1175,33 @@ const preguntes = {
     },
     {
       "pregunta": "Una vista sempre es pot expandir.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Mai expandim vistes materialitzades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "No podem expandir vistes dins d’una altra vista.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els SGBDs sempre permeten modificar una taula a través d’una vista que no conté cap altra taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els SGBDs sempre permeten modificar una taula a través d’una vista que tingui un agregat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els SGBDs sempre permeten modificar una taula a través d’una vista que faci una join.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quan NO podem propagar els canvis d’una taula a les seves vistes materialitzades?",
@@ -1210,18 +1210,18 @@ const preguntes = {
     },
     {
       "pregunta": "Només cal crear un log per fer manteniment de vistes incremental.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Sempre podem utilitzar una vista materialitzada per implementar una asserció.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Per implementar una asserció amb una vista materialitzada, cal que la vista sempre estigui buida.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quin NO és un dels requisits per a poder rescriure una consulta en termes d’una vista materialitzada?",
@@ -1235,8 +1235,8 @@ const preguntes = {
     },
     {
       "pregunta": "Si el nostre SGBD no proporciona vistes materialitzades, podríem implementar-les nosaltres mateixos amb disparadors.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quan es varen introduir les vistes materialitzades a l’estàndard SQL?",
@@ -1245,8 +1245,8 @@ const preguntes = {
     },
     {
       "pregunta": "Només tenint en compte les diferents possibilitats d’agregació, el nombre de potencials vistes materialitzades que podem crear ja és exponencial.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quina NO és una bona heurística per a triar quines vistes materialitzar en un esquema multidimensional?",
@@ -1255,8 +1255,8 @@ const preguntes = {
     },
     {
       "pregunta": "Hem de considerar com a vista candidata a materialitzar la que conté un “GROUP BY” que és la intersecció dels “GROUP BY” de dues consultes crítiques.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "En quin nivell de l'arquitectura ANSI/SPARC trobem més esquemes?",
@@ -1265,8 +1265,8 @@ const preguntes = {
     },
     {
       "pregunta": "La consulta que defineix una vista sempre està guardada al catàleg de la base de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quin és un exemple paradigmàtic de vistes materialitzades?",
@@ -1305,53 +1305,53 @@ const preguntes = {
     },
     {
       "pregunta": "View Expansion consisteix simplement en substituir el nom de la vista que apareix a la consulta per la corresponent definició que podem trobar al catàleg de la base de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Update Through Views consisteix a utilitzar les vistes en comptes dels índexs per accedir més ràpid a les dades quan les hem de modificar.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els SGBDs permeten modificar una taula a través d'una vista independentment del predicat lògic que es posi al WHERE de la definició de la vista, sempre que aquest no contingui cap subconsulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Els SGBDs permeten modificar una taula a través d'una vista definida sobre una altra vista si les dues definicions de les vistes compleixen, per separat, les condicions necessàries.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "View Updating consisteix a propagar els canvis que es produeixen a una taula a totes les vistes materialitzades definides sobre ella.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Hem de crear un únic log a cada taula que tingui vistes materialitzar a mantenir de forma incremental, independentment del seu nombre.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Fer el manteniment d'una vista materialitzada de forma incremental sempre és el més eficient.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Sempre es pot fer el manteniment d'una vista materialitzada de forma incremental si el log conté les dades adequades.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
-      "pregunta": "Query Rewriting consisteix en que l'usuari rescrigui la seva consulta aprofitant les vistes materialitzades existents, en comptes de les taules.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Sempre es pot fer el manteniment d'una vista materialitzada de forma incremental si el log conté les dades adequades.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
+      "pregunta": "Query Rewriting consisteix en que l'usuari rescrigui la seva consulta aprofitant les vistes materialitzades existents, en comptes de les taules.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
       "pregunta": "En general, els SGBDs fan una cerca exhaustiva de totes les possibilitats de rescriptura d'una consulta emprant les vistes materialitzades que s'hagin definit amb anterioritat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Per decidir si val la pena materialitzar o no una certa consulta, cal tenir en compte...",
@@ -1365,18 +1365,18 @@ const preguntes = {
     },
     {
       "pregunta": "Utilitzant un algorisme greedy, sempre tindrem el conjunt òptim de vistes materialitzades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Utilitzant un algorisme greedy, mai tindrem el conjunt òptim de vistes materialitzades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si hem utilitzat un algorisme greedy per seleccionar-les, ja no hem de canviar mai el conjunt de vistes que hem decidit materialitzar.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Podem estimar la cardinalitat del resultat d'una consulta amb agregats sobre la taula T(a1, ..., an) com...",
@@ -1387,8 +1387,8 @@ const preguntes = {
   tema7: [
     {
       "pregunta": "El disseny físic tracta d'adaptar l'esquema lògic a les particularitats d'un SGBD i una càrrega de treball concretes.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quina NO és una de les tasques bàsiques del disseny físic?",
@@ -1438,13 +1438,13 @@ const preguntes = {
     },
     {
       "pregunta": "L'estàndard SQL'03 defineix quines han de ser les taules del catàleg de qualsevol SGBD.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L'estàndard SQL'03 distingeix entre la informació del catàleg necessària per l'administrador i la necessària pels usuaris de la base de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Les estructures d'accés (és a dir, els índexs) són ... respecte a les taules.",
@@ -1453,13 +1453,13 @@ const preguntes = {
     },
     {
       "pregunta": "Un índex sempre té menys atributs que la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Sempre que posem un índex, la taula queda ordenada pels atributs indexats.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Què NO podem trobar en una entrada d'un índex?",
@@ -1468,68 +1468,68 @@ const preguntes = {
     },
     {
       "pregunta": "Els valors null sempre es troben a l'índex.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els blocs de la taula contenen apuntadors als registres.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Els blocs de la taula contenen metadades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Tots el registres continguts al mateix bloc tenen la mateixa longitud.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Les entrades que trobem a les fulles d'un índex tipus arbre sempre estan ordenades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Tots els nodes d'un índex tipus arbre estan normalment plens al 100%.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un índex tipus arbre incrementa la grandària de la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Les entrades que trobem als buckets d'un índex tipus hash sempre estan ordenades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Tots els buckets d'un índex tipus hash estan normalment plens al 100%.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els buckets d'un índex tipus hash estan normalment més plens que els nodes d'un tipus arbre.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Un índex tipus hash incrementa la grandària de la taula.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
-      "pregunta": "Un índex tipus cluster manté ordenades les dades de la taula segons l'atribut d'indexació.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Un índex tipus hash incrementa la grandària de la taula.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
+      "pregunta": "Un índex tipus cluster manté ordenades les dades de la taula segons l'atribut d'indexació.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
+    },
+    {
       "pregunta": "Un índex tipus cluster incrementa la grandària de la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "| T | representa el nombre de ... de la taula T.",
@@ -1543,83 +1543,83 @@ const preguntes = {
     },
     {
       "pregunta": "Els índexs ocupen sempre menys espai que la taula i conseqüentment mai generaran problemes d’espai.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un índex tipus arbre sempre ocupa menys espai que l'índex cluster corresponent.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El nombre de blocs ocupats per qualsevol estructura de dades, sempre ha de ser un nombre enter.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El cost d'utilitzar un índex sempre és més petit que el de llegir la taula sencera.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Per estimar el cost d'accedir a una certa estructura, comptem només el cost corresponent a accedir els blocs de la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Per estimar el cost d'accedir a una certa estructura, comptem només el cost corresponent a accedir els blocs de disc.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El cost d'accés estimat per a una estructura d'accés, sempre ha de ser un nombre enter.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els índexs tipus arbre i hash són molt útils quan l'atribut indexat té molts repetits.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Posar un índex sempre és útil, independentment del tipus de consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Posar índexs mai empitjorarà el temps de resposta del sistema.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El millor és sempre definir tants índexs com puguem, però sense arribar a omplir el disc del tot.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els índexs tipus arbre i hash són molt útils en consultes amb condicions poc selectives.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els índexs tipus hash només són útils si tinc una condició de selecció per igualtat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Els índexs són útils a qualsevol taula.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
-      "pregunta": "NO haig de definir un índex tipus arbre o hash si l'atribut té pocs valors.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Els índexs són útils a qualsevol taula.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
+      "pregunta": "NO haig de definir un índex tipus arbre o hash si l'atribut té pocs valors.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
+    },
+    {
       "pregunta": "Index-only query answering vol dir que el SGBD no accedirà a la taula corresponent per a resoldre la consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     }
   ],
 
@@ -1631,8 +1631,8 @@ const preguntes = {
     },
     {
       "pregunta": "L’optimització de consultes tradueix d'un llenguatge declaratiu a un de procedural.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quina NO és una de les tres fases de l'optimització de consultes?",
@@ -1641,63 +1641,63 @@ const preguntes = {
     },
     {
       "pregunta": "L’optimització escaneja les taules involucrades en la consulta per a calcular les estadístiques que necessita.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’optimitzador de consultes sempre troba el millor pla d’accés.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’optimitzador prioritza acabar ràpid la tasca d’optimizació per davant de trobar el millor pla d’accés.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’optimització semàntica canvia el llenguatge de representació de la consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’optimització semàntica considera només la pròpia consulta i les lleis de la lògica.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’optimització semàntica pot fer que el cost d’execució d’una consulta sigui zero.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’optimització semàntica pot fer més curta la clàusula WHERE.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’optimització semàntica pot fer més llarga la clàusula WHERE.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’optimització sintàctica canvia el llenguatge de representació de la consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’optimització sintàctica resol totes les vistes no-materialitzades que hi hagi a la consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’optimització sintàctica canvia el cost de la consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Les dues regles heurístiques utilitzades a l’optimització sintàctica sempre milloren el cost de la consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quina heurística utilitza l’optimització sintàctica?",
@@ -1711,58 +1711,58 @@ const preguntes = {
     },
     {
       "pregunta": "L’optimització sintàctica sempre redueix el nombre d’operacions a l’arbre sintàctic.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’optimització sintàctica mai deixa una projecció just a sobre d’una fulla de l’arbre sintàctic.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Després de l’optimització sintàctica poden quedar dos subgrafs iguals a l’arbre sintàctic.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El resultat de l’optimització sintàctica sempre és un arbre.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’optimització sintàctica mai elimina operacions de l’arbre sintàctic.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si una selecció té un predicat complex, sempre la podem dividir en dues seleccions consecutives.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "La selecció sempre commuta (sense posar ni treure res) amb la join.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La selecció sempre commuta (sense posar ni treure res) amb qualsevol operació de conjunts (és a dir, unió, intersecció i diferència).",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La selecció sempre commuta (sense posar ni treure res) amb la projecció.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "La projecció sempre commuta (sense posar ni treure res) amb la join.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "La projecció sempre commuta (sense posar ni treure res) amb qualsevol operació de conjunts (és a dir, unió, intersecció i diferència).",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quines propietats compleix la join respecte a ella mateixa?",
@@ -1796,13 +1796,13 @@ const preguntes = {
     },
     {
       "pregunta": "L’arbre de procés mai té menys operacions que l’arbre sintàctic un cop optimitzat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’arbre de procés mai té més operacions que l’arbre sintàctic un cop optimitzat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Què NO genera alternatives en l’espai de cerca de l’optimització basada en costos?",
@@ -1826,13 +1826,13 @@ const preguntes = {
     },
     {
       "pregunta": "L’encarrilament (pipelining) és una tècnica d’execució de consultes que evita la materialització de resultats intermitjos.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’encarrilament (pipelining) es pot fer servir només quan tenim un esquema en estrella.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quan fem encarrilament (pipelining), l’ordre de les joins és ...",
@@ -1846,91 +1846,91 @@ const preguntes = {
     },
     {
       "pregunta": "El cost d’una operació de l’arbre de procés és el cost de llegir l’entrada i d’executar la pròpia operació.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El cost d’una consulta és la suma dels costos de totes les operacions del seu arbre de procés.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     }
   ],
 
   tema9: [
     {
       "pregunta": "L’optimitzador calcula el cost de totes les alternatives d’execució que genera.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El factor de selecció de qualsevol operació és el percentatge de files al resultat respecte a mínim de files que podem tenir.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un factor de selecció “1” és el més selectiu que pot haver.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "La cardinalitat màxima d’una join coincideix amb la del producte cartesià.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El càlcul del factor de selecció de la UNION és el mateix que el de la UNION ALL.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El càlcul del factor de selecció de la join és el mateix que el de la intersecció.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Les cardinalitats dels resultats intermitjos es calculen top-down a l’arbre de procés.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El SGBD manté sempre actualitzades les estadístiques de les taules.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El SGBD típicament assumeix una distribució normal dels valors de cada atribut.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El SGBD típicament assumeix la independència estadística de tots els atributs de les taules.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El SGBD sempre calcula totes les estadístiques de la base de dades de cop.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El SGBD pot calcular les estadístiques de la base de dades només a partir d’un mostreig.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El factor de selecció d’un predicat mai pot ser “0”.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El factor de selecció d’un predicat mai pot ser “1”.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El factor de selecció d’una clàusula “IN” és exactament el mateix que el d’un predicat complex amb la disjunció de les igualtats del mateix atribut amb cadascun dels valors al conjunt de la “IN”.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Què NO afecta al factor de selecció d’una join?",
@@ -1939,108 +1939,108 @@ const preguntes = {
     },
     {
       "pregunta": "El factor de selecció de la θ-join amb “<>” és el mateix que el del producte cartesià.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "La longitud d’un registre és la suma de les longituds dels seus atributs.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Estimem el nombre de registres a un bloc com la grandària del bloc dividit per la longitud del registre arrodonit per excés.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Estimem el nombre de blocs d’una taula com la cardinalitat de la taula dividida pel nombre de registres per bloc arrodonit per excés.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El primer pas per a processar una selecció d’un predicat complex és posar-ho en forma normal disjuntiva.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si després de posar el predicat lògic d’una selecció en forma normal conjuntiva una de les condicions dins d’un parèntesi no permet utilitzar cap índex, llavors no podem utilitzar-ne cap tampoc a les altres condicions dins del parèntesi.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Si després de posar el predicat lògic d’una selecció en forma normal conjuntiva un dels parèntesi queda negat, simplement l’eliminem del procés.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "La resolució de predicats de selecció amb operacions de llistes de RID, fa que no haguem de fer mai cap comprovació sobre les dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "La resolució de predicats de selecció amb operacions de llistes de RID, fa que no haguem de fer mai un table scan.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els índexs tipus arbre serveixen per avaluar clàusules lògiques amb qualsevol tipus de comparació.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Els índexs tipus hash serveixen per avaluar clàusules lògiques només amb comparacions per igualtat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un bitmap guarda un bit per cada fila de la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un bitmap guarda una llista de bits per cada valor diferent de la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Les operacions amb bitmaps són equivalents a les operacions de llistes de RIDs.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Els índexs tipus bitmaps serveixen per avaluar clàusules lògiques amb qualsevol tipus de comparació.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un índex tipus arbre multi-atribut no necessàriament utilitza més espai que si indexem només el primer dels seus atributs.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un índex tipus arbre multi-atribut permet resoldre qualsevol selecció amb un predicat lògic que involucri tots els atributs indexats.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’ordre dels atributs en un índex tipus arbre multi-atribut és irrellevant per a les consultes que es puguin fer amb ell.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’operació d’ordenació pot aparèixer en l’arbre de procés de consultes que NO tinguin ORDER BY.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un índex tipus arbre es pot utilitzar per ordenar les dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un índex tipus hash es pot utilitzar per ordenar les dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quin algorisme d’ordenació a memòria utilitza el External Merge Sort?",
@@ -2049,146 +2049,146 @@ const preguntes = {
     },
     {
       "pregunta": "El External Merge Sort requereix d’una zona d’espai temporal per a realitzar l’ordenació, de l’ordre de la grandària de la pròpia taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El nombre de vegades que l’algorisme External Merge Sort ha de llegir i escriure la taula és logarítmic respecte a la grandària de la pròpia taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’operació de projecció sense eliminació de repetits no té cap cost associat quan la consulta té alguna altra operació.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’eliminació de repetits considera les mateixes alternatives d’algorismes que l’ordenació.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     }
   ],
 
   tema10: [
     {
       "pregunta": "Una estructura cluster incrementa l’espai requetis per les taules que l’ocupen.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Una estructura cluster incrementa el cost d’accedir les dades de només una de les taules que l’ocupen.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’opció que dona el cost més baix per a fer una join és sempre tenir les dues taules en una estructura cluster.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Row Nested Loops és simètric.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Row Nested Loops requereix l’existència d’un índex a priori.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’algorisme de Row Nested Loops només es pot utilitzar si, en l’arbre de procés, l’operació de join està situada directament sobre la taula de l’índex utilitzat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’algorisme de Row Nested Loops només es pot utilitzar si la comparació de la join és la igualtat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El cost de l’algorisme de Row Nested Loops és sempre més baix si no hem d’accedir atributs de la taula interna que no siguin els del propi índex utilitzat per l’algorisme.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’algorisme de Row Nested Loops només permet utilitzar un índex tipus cluster si requerim atributs de la taula interna que no siguin els del propi índex.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Block Nested Loops sempre es pot utilitzar.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’algorisme de Block Nested Loops és simètric.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Block Nested Loops sempre té un cost més baix si posem la taula més gran al bucle extern.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Block Nested Loops requereix que una de les taules càpiga a memòria.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Hash-join requereix l’existència d’un índex tipus hash a priori.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Hash-join només es pot utilitzar si la comparació de la join és la igualtat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’algorisme de Hash-join és simètric.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Hash-join requereix que una de les taules càpiga a memòria.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Hash-join requereix dues passades si una de les taules no hi cap a memòria.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si la taula més petita no hi cap a memòria, l’algorisme de Hash-join particiona les dues.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’algorisme de Sort-Match només es pot utilitzar si la comparació de la join és la igualtat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El cost de l’algorisme de Sort-Match depèn de la comparació de la join.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’algorisme de Sort-Match requereix que alguna de les taules estigui ordenada a priori.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Sort-Match requereix l’existència d’un índex cluster a priori.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’algorisme de Sort-Match deixa el resultat ordenat per l’atribut de join.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     }
   ],
 
@@ -2215,78 +2215,78 @@ const preguntes = {
     },
     {
       "pregunta": "Les extensions serveixen per a garantir que el sistema operatiu assigni espai físicament consecutiu al disc.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Un Tablespace pot tenir associats més d’un fitxer.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Els Tablespaces faciliten disposar d’espai il·limitat a la base de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Cal definir un Tablespace per a cada usuari del sistema.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Cal definir un Tablespace per a cada patró d’accés diferent al sistema.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Els paràmetres del SGBD serveixen per a configurar el comportament dels seus subsistemes.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El fillfactor és el percentatge màxim que pot tenir mai ple un bloc de la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Reduir el fillfactor sempre fa que les taules ocupin més espai.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Reduir el fillfactor fa que les modificacions de les dades sempre siguin més ràpides.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "El nombre de repeticions de cada valor és irrellevant per a la utilitat d’un índex tipus arbre.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Un cop s’ha creat un índex tipus bitmap, es poden continuar fent insercions a la taula, però no de valors nous de l’atribut indexat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Fer una inserció a una taula que té un índex tipus bitmap no incrementa la grandària de l’índex, tret que el valor de l’atribut corresponent no existís abans a la taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "Fer una modificació (UPDATE) a una taula que té un índex tipus bitmap no incrementa la grandària de l’índex, tret que el nou valor assignat a l’atribut corresponent no existís abans a la taula.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
-      "pregunta": "En el cas de l’índex bitmap, el factor de selecció indica el percentatge de blocs de la taula que caldrà accedir.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "El nombre de repeticions de cada valor és irrellevant per a la utilitat d’un índex tipus arbre.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
+      "pregunta": "Un cop s’ha creat un índex tipus bitmap, es poden continuar fent insercions a la taula, però no de valors nous de l’atribut indexat.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
+      "pregunta": "Fer una inserció a una taula que té un índex tipus bitmap no incrementa la grandària de l’índex, tret que el valor de l’atribut corresponent no existís abans a la taula.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
+      "pregunta": "Fer una modificació (UPDATE) a una taula que té un índex tipus bitmap no incrementa la grandària de l’índex, tret que el nou valor assignat a l’atribut corresponent no existís abans a la taula.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
+      "pregunta": "En el cas de l’índex bitmap, el factor de selecció indica el percentatge de blocs de la taula que caldrà accedir.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
       "pregunta": "L’índex tipus bitmap és especialment útil en atributs UNIQUE.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quin tipus d’índex és millor en cas de consultes que involucrin múltiples valors d’un atribut?",
@@ -2300,23 +2300,23 @@ const preguntes = {
     },
     {
       "pregunta": "L’índex tipus bitmap millora el temps de resposta d’una consulta quan el factor de selecció és inferior al 50%.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’índex tipus bitmap incrementa el grau de concurrència del sistema.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’índex tipus bitmap no es pot utilitzar si l’atribut indexat conté valors null.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’índex tipus bitmap facilita la comprovació d’unicitat en l’atribut corresponent.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quin tipus d’usuari s’encarrega del tuning de la base de dades?",
@@ -2340,96 +2340,96 @@ const preguntes = {
     },
     {
       "pregunta": "El nombre d’índexs que podem crear a una base de dades és lineal respecte al nombre de taules i atributs existents.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’única limitació que tenim per a crear índexs és l’espai de disc disponible.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Un índex que no sigui de tipus cluster mai empitjorarà l’estimació del temps d’execució d’una consulta.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "És millor no posar índexos a les taules petites.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Pot ser que un índex no millori el rendiment de cap operació DML concreta, però tot i així sigui bo crear-ho des del punt de vista del rendiment del sistema.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El predicat de les consultes és irrellevant per a triar el tipus d’índex d’una taula.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "L’ordre dels atributs d’un índex multiatribut afecta a la seva utilitat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Una taula pot tenir com a màxim un índex tipus cluster.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Com més repeticions tingui un atribut, millor serà posar un índex tipus hash en comptes d’un arbre.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Com més repeticions tingui un atribut, millor serà posar un índex tipus bitmap en comptes d’un arbre.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "L’algorisme greedy de selecció d’índexs és bàsicament el mateix que el de selecció de vistes materialitzades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quan utilitzem l’algorisme greedy, cal calcular el temps d’execució considerant també les estructures que no hi càpiguen, perque podem guanyar l’espai necessari per elles eliminant una altra estructura que haguem triat amb anterioritat.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     }
   ],
 
   tema12: [
     {
       "pregunta": "Pel que fa a l’aïllament, volem tenir només històries serials.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "El nivell d’aïllament read uncommitted només bloqueja escriptures.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El nivell d’aïllament read committed manté tots els bloquejos fins al final de la transacció.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "El nivell d’aïllament repeatable read genera dos bloquejos per cada lectura.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
-    },
-    {
-      "pregunta": "El nivell d’aïllament serializable sempre bloqueja tota la taula fins al final de la transacció.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
     },
     {
-      "pregunta": "Com més garanties d’aïllament tinguem, millor serà el rendiment del sistema.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "El nivell d’aïllament repeatable read genera dos bloquejos per cada lectura.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
+    },
+    {
+      "pregunta": "El nivell d’aïllament serializable sempre bloqueja tota la taula fins al final de la transacció.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
+    },
+    {
+      "pregunta": "Com més garanties d’aïllament tinguem, millor serà el rendiment del sistema.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Quin dels següents conceptes NO afecta al temps d’execució de la transacció?",
@@ -2451,53 +2451,53 @@ const preguntes = {
     },
     {
       "pregunta": "El control de concurrència multi-versió fa que dues transaccions que s’executin concurrentment puguin llegir dades diferents.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Amb control de concurrència multi-versió, cada operació d’escriptura genera una nova versió del grànul.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Amb control de concurrència multi-versió, l’usuari ha de decidir quina versió del grànul llegeix.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
-      "pregunta": "Amb control de concurrència multi-versió, les operacions de lectura no bloquegen mai res.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Amb control de concurrència multi-versió, cada operació d’escriptura genera una nova versió del grànul.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Amb control de concurrència multi-versió, l’usuari ha de decidir quina versió del grànul llegeix.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
+    },
+    {
+      "pregunta": "Amb control de concurrència multi-versió, les operacions de lectura no bloquegen mai res.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Amb control de concurrència multi-versió, només hi ha bloquejos entre escriptures.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Amb control de concurrència multi-versió, fer rollback d’una transacció és equivalent a eliminar les versions generades per la transacció.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Amb control de concurrència multi-versió, tenim implícit una base de dades temporal amb temps de transacció.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "El principal problema del control de concurrència multi-versió, és que hem d’esborrar les versions obsoletes dels grànuls per a mantenir la grandària de la base de dades dins d’uns límits.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Fent vacuum, eliminem les versions obsoletes de les dades en el control de concurrència multi-versió.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Amb un control de concurrència multi-versió basat en bloquejos, s’aplica un control de concurrència diferent depenent de si la transacció és read-only o read-write.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Amb un control de concurrència multi-versió basat en bloquejos, les transaccions read-only assignen un timestamp ...",
@@ -2560,8 +2560,8 @@ const preguntes = {
     },
     {
       "pregunta": "El Write Ahead Log Protocol estableix que abans de confirmar qualsevol operació de DML, aquesta s’ha d’escriure al dietari (log).",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Com evita el SGBD que s’ompli el dietari (log)?",
@@ -2575,33 +2575,33 @@ const preguntes = {
     },
     {
       "pregunta": "Si fem backups de forma regular, no ens cal el dietari (log) per a reconstruir la base de dades.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Just quan acabem de fer un backup, podem esborrar el dietari (log).",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Si configurem de forma adequada el dietari (log), no ens cal fer backups.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
-      "pregunta": "Mentre s’executa un backup, el rendiment del sistema empitjora.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Si configurem de forma adequada el dietari (log), no ens cal fer backups.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
+    },
+    {
+      "pregunta": "Mentre s’executa un backup, el rendiment del sistema empitjora.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "És important posar el dietari (log) en un disc dedicat exclusivament per a ell, perquè així evitem moviments innecessaris del capçal i afavorim la seva escriptura seqüencial.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Endarrerir els flush tan com sigui possible millora el rendiment del sistema.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Quin NO és un problema de que les transaccions read-write siguin innecessàriament llargues?",
@@ -2616,43 +2616,43 @@ const preguntes = {
     },
     {
       "pregunta": "El fet que trossejar una transacció afecti o no al seu aıllament depen nomes d’ella mateixa i no de cap altra transaccio que es pugui executar de forma concurrent",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Trossejar una transacció afecta només a ella mateixa i no a cap altra transacció concurrent.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Les transaccions llargues són un problema tant pel control de concurrència, com per a la recuperació.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     },
     {
       "pregunta": "Si concatenem (chain) dues transaccions, no s’alliberen els bloquejos de la primera fins que acaba la segona.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 1
+      "opcions": ["Fals", "Cert"],
+      "correcta": 0
     },
     {
       "pregunta": "Si concatenem (chain) dues transaccions, no s’alliberen els recursos de la primera (p.e., memoria) de la primera i aquests es reutilitzen en la segona, que manté la mateixa configuració (p.e., nivell d'aïllament).",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Si totes les transaccions són prou curtes, no cal paral·lelitzar les escriptures i podem substituir el control de concurrència per un sistema de cues.",
-      "opcions": ["Cert", "Fals"],
-      "correcta": 0
-    },
-    {
-      "pregunta": "Si tenim prou memòria com per a contenir tota la base de dades, podem fer directament allà totes les operacions i no cal escriure mai al disc.",
-      "opcions": ["Cert", "Fals"],
+      "opcions": ["Fals", "Cert"],
       "correcta": 1
     },
     {
-      "pregunta": "Si tenim un sistema que només fa lectures, podem prescindir tant dels mecanismes de control de concurrència com dels de recuperació.",
-      "opcions": ["Cert", "Fals"],
+      "pregunta": "Si totes les transaccions són prou curtes, no cal paral·lelitzar les escriptures i podem substituir el control de concurrència per un sistema de cues.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
+    },
+    {
+      "pregunta": "Si tenim prou memòria com per a contenir tota la base de dades, podem fer directament allà totes les operacions i no cal escriure mai al disc.",
+      "opcions": ["Fals", "Cert"],
       "correcta": 0
+    },
+    {
+      "pregunta": "Si tenim un sistema que només fa lectures, podem prescindir tant dels mecanismes de control de concurrència com dels de recuperació.",
+      "opcions": ["Fals", "Cert"],
+      "correcta": 1
     }
   ]
 };

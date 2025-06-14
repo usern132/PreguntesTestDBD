@@ -135,13 +135,19 @@ function mostraPregunta() {
 
         let correctaOriginal = preguntaActual.opcions[preguntaActual.correcta];
 
-        // Barrejar les opcions abans de crear els botons
-        let opcionsBarrejades = barrejaArray([...preguntaActual.opcions]);  // Còpia de les opcions barrejades
+        // Si és una pregunta Cert/Fals, força l'ordre Fals (a dalt), Cert (a baix)
+        let opcionsBarrejades, novaCorrectaIndex;
+        if (
+            preguntaActual.opcions.length === 2 &&
+                (preguntaActual.opcions.includes("Fals") && preguntaActual.opcions.includes("Cert"))
+        ) {
+            opcionsBarrejades = ["Fals", "Cert"];
+            novaCorrectaIndex = (correctaOriginal === "Fals") ? 0 : 1;
+        } else {
+            opcionsBarrejades = barrejaArray([...preguntaActual.opcions]);
+            novaCorrectaIndex = opcionsBarrejades.indexOf(correctaOriginal);
+        }
 
-        // Trobar el nou índex de la resposta correcta en les opcions barrejades
-        let novaCorrectaIndex = opcionsBarrejades.indexOf(correctaOriginal);
-
-        // Crear botons per a les opcions barrejades
         opcionsBarrejades.forEach((opcio, index) => {
             let btn = document.createElement('button');
             btn.innerText = opcio;
@@ -152,32 +158,26 @@ function mostraPregunta() {
             opcionsDiv.appendChild(btn);
         });
 
-        // Comprova si les opcions originals són "Cert" i "Fals" per a l'entrada de teclat
-        if (preguntaActual.opcions.length === 2 &&
-                                   preguntaActual.opcions[0] === "Cert" &&
-                                   preguntaActual.opcions[1] === "Fals") {
+        // Comprova si les opcions són Cert/Fals per a l'entrada de teclat
+        if (
+            preguntaActual.opcions.length === 2 &&
+                preguntaActual.opcions.includes("Fals") && preguntaActual.opcions.includes("Cert")
+        ) {
             currentKeydownListener = function(event) {
                 const opcionsButtons = opcionsDiv.getElementsByTagName('button');
-                // Comprova si els botons ja estan desactivats (resposta enviada)
                 if (opcionsButtons.length > 0 && opcionsButtons[0].disabled) {
                     return;
                 }
-
                 const key = event.key.toLowerCase();
                 let selectedIndexByKey = -1;
-
-                if (key === 'c') {
-                    // "Cert" és a l'índex 0 a opcionsBarrejades per a aquestes preguntes
-                    selectedIndexByKey = 0;
-                } else if (key === 'f') {
-                    // "Fals" és a l'índex 1 a opcionsBarrejades per a aquestes preguntes
-                    selectedIndexByKey = 1;
+                if (key === 'f') {
+                    selectedIndexByKey = 0; // "Fals" a dalt
+                } else if (key === 'c') {
+                    selectedIndexByKey = 1; // "Cert" a baix
                 }
-
                 if (selectedIndexByKey !== -1) {
-                    event.preventDefault(); // Evita l'acció per defecte del navegador per 'c' o 'f'
+                    event.preventDefault();
                     comprovaResposta(selectedIndexByKey, novaCorrectaIndex);
-                    // L'oient s'eliminarà a comprovaResposta o al proper mostraPregunta
                 }
             };
             document.addEventListener('keydown', currentKeydownListener);
@@ -297,9 +297,9 @@ document.getElementById('reiniciar-test').addEventListener('click', function() {
 
 // Funció per barrejar un array (algoritme Fisher-Yates)
 function barrejaArray(array) {
-    if (array[0] === "Cert" && array[1] === "Fals") {
-            // Si les opcions són "cert" i "fals", no les barreja
-            return array;
+    // No barrejar si és exactament ["Fals", "Cert"]
+    if (array.length === 2 && array[0] === "Fals" && array[1] === "Cert") {
+        return array;
     }
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));

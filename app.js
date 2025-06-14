@@ -1438,12 +1438,12 @@ const preguntes = {
       },
       {
           "pregunta": "L'estàndard SQL'03 defineix quines han de ser les taules del catàleg de qualsevol SGBD.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "L'estàndard SQL'03 distingeix entre la informació del catàleg necessària per l'administrador i la necessària pels usuaris de la base de dades.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
@@ -1453,12 +1453,12 @@ const preguntes = {
       },
       {
           "pregunta": "Un índex sempre té menys atributs que la taula.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Sempre que posem un índex, la taula queda ordenada pels atributs indexats.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
@@ -1468,67 +1468,67 @@ const preguntes = {
       },
       {
           "pregunta": "Els valors null sempre es troben a l'índex.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Els blocs de la taula contenen apuntadors als registres.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "Els blocs de la taula contenen metadades.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "Tots el registres continguts al mateix bloc tenen la mateixa longitud.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Les entrades que trobem a les fulles d'un índex tipus arbre sempre estan ordenades.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "Tots els nodes d'un índex tipus arbre estan normalment plens al 100%.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Un índex tipus arbre incrementa la grandària de la taula.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Les entrades que trobem als buckets d'un índex tipus hash sempre estan ordenades.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Tots els buckets d'un índex tipus hash estan normalment plens al 100%.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Els buckets d'un índex tipus hash estan normalment més plens que els nodes d'un tipus arbre.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
         "pregunta": "Un índex tipus hash incrementa la grandària de la taula.",
-        "opcions": ["Cert", "False"],
+        "opcions": ["Cert", "Fals"],
         "correcta": 1
       },
       {
           "pregunta": "Un índex tipus cluster manté ordenades les dades de la taula segons l'atribut d'indexació.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "Un índex tipus cluster incrementa la grandària de la taula.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
@@ -1543,82 +1543,82 @@ const preguntes = {
       },
       {
           "pregunta": "Els índexs ocupen sempre menys espai que la taula i conseqüentment mai generaran problemes d’espai.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Un índex tipus arbre sempre ocupa menys espai que l'índex cluster corresponent.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "El nombre de blocs ocupats per qualsevol estructura de dades, sempre ha de ser un nombre enter.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "El cost d'utilitzar un índex sempre és més petit que el de llegir la taula sencera.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Per estimar el cost d'accedir a una certa estructura, comptem només el cost corresponent a accedir els blocs de la taula.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Per estimar el cost d'accedir a una certa estructura, comptem només el cost corresponent a accedir els blocs de disc.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "El cost d'accés estimat per a una estructura d'accés, sempre ha de ser un nombre enter.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Els índexs tipus arbre i hash són molt útils quan l'atribut indexat té molts repetits.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Posar un índex sempre és útil, independentment del tipus de consulta.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Posar índexs mai empitjorarà el temps de resposta del sistema.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "El millor és sempre definir tants índexs com puguem, però sense arribar a omplir el disc del tot.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Els índexs tipus arbre i hash són molt útils en consultes amb condicions poc selectives.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "Els índexs tipus hash només són útils si tinc una condició de selecció per igualtat.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "Els índexs són útils a qualsevol taula.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 1
       },
       {
           "pregunta": "NO haig de definir un índex tipus arbre o hash si l'atribut té pocs valors.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       },
       {
           "pregunta": "Index-only query answering vol dir que el SGBD no accedirà a la taula corresponent per a resoldre la consulta.",
-          "opcions": ["Cert", "False"],
+          "opcions": ["Cert", "Fals"],
           "correcta": 0
       }
     ],
@@ -2072,12 +2072,12 @@ const preguntes = {
     tema10: [
         {
             "pregunta": "Una estructura cluster incrementa l’espai requetis per les taules que l’ocupen.",
-            "opcions": ["Cert", "False"],
+            "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
         {
             "pregunta": "Una estructura cluster incrementa el cost d’accedir les dades de només una de les taules que l’ocupen.",
-            "opcions": ["Cert", "False"],
+            "opcions": ["Cert", "Fals"],
             "correcta": 0
         },
         {
@@ -2878,6 +2878,10 @@ document.getElementById('reiniciar-test').addEventListener('click', function() {
 
 // Funció per barrejar un array (algoritme Fisher-Yates)
 function barrejaArray(array) {
+    if (array[0] === "Cert" && array[1] === "Fals") {
+            // Si les opcions són "cert" i "fals", no les barreja
+            return array;
+    }
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
